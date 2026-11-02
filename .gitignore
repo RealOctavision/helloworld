@@ -1,0 +1,42 @@
+# Local environments and secrets
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Raw traffic, arrays, checkpoints and transfer archives stay local.
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.pcap
+*.pcapng
+*.zip
+*.log
+*.pid
+*.lock
+parts/
+training_parts/
+evaluation_parts/
+review/
+demo_evidence/
+tmp/
+
+# Private runtime/account captures and raw-flow examples
+*running*.png
+*released*.png
+*runtime*.png
+raw_examples.json
+clipped_examples.json
+cache_source_check.json
+cpu_demo_verification.json

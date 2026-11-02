@@ -1,0 +1,53 @@
+Service,Service Provider,Tag,Service Category,Domains
+Google Search & Maps,google,google-www,Other services and APIs,"www.google.com, www.google.cz, www.google.at, www.google.sk, www.google.de, maps.googleapis.com, mobilemaps.googleapis.com"
+Google Play,google,google-play,Other services and APIs,"*.play.google.com, *.gvt1.com, *.gvt2.com, *.gvt3.com, android.clients.google.com, play.googleapis.com"
+Google Backend Services,google,google-services,Other services and APIs,"clients2.google.com, clients3.google.com, clients4.google.com, clients5.google.com, *.clients6.google.com"
+Google Gstatic,google,google-gstatic,Streaming media,"ssl.gstatic.com, www.gstatic.com, encrypted-tbn0.gstatic.com"
+Google User Content,google,google-usercontent,Streaming media,*.googleusercontent.com
+Google Authentication,google,google-authentication,Authentication services,"accounts.google.com, myaccount.google.com, oauth2.googleapis.com, ogs.google.com, ogs.google.sk, ogs.google.at, accounts.youtube.com, oauthaccountmanager.googleapis.com, accounts.google.sk"
+Google Connectivity Check,google,google-conncheck,Analytics & Telemetry,connectivitycheck.gstatic.com
+Google Fonts,google,google-fonts,Streaming media,"fonts.gstatic.com, fonts.googleapis.com"
+Google Drive,google,google-drive,File sharing,*.drive.google.com
+Google Docs,google,google-docs,File sharing,*.docs.google.com
+Google Photos,google,google-photos,File sharing,"*.photos.google.com, photos.googleapis.com, photosdata-pa.googleapis.com"
+Google Colab,google,google-colab,File sharing,colab.research.google.com
+Google Translate,google,google-translate,Other services and APIs,"translate.google.com, translate.googleapis.com, translate.google.sk, translate.google.at, translate-pa.googleapis.com"
+Youtube,google,youtube,Streaming media,"*.googlevideo.com, *.video.google.com, *.youtu.be, *.youtube-nocookie.com, *.youtube-ui.l.google.com, *.youtube.com, *.youtube.googleapis.com, *.youtubeeducation.com, *.youtubei.googleapis.com, *.yt3.ggpht.com, *.ytimg.com"
+Google Hangouts & Meets,google,google-hangouts,Instant messaging,"hangouts.google.com, *.meet.google.com, meetings.googleapis.com, hangouts.clients6.google.com, hangouts.googleapis.com"
+Google Analytics & Ads,google,google-ads,Advertising,"*.2mdn.net, *.adsense.google.com, *.adservice.google.ca, *.adservice.google.co.in, *.adservice.google.co.kr, *.adservice.google.co.uk, *.adservice.google.co.za, *.adservice.google.com, *.adservice.google.com.ar, *.adservice.google.com.au, *.adservice.google.com.br, *.adservice.google.com.co, *.adservice.google.com.gt, *.adservice.google.com.mx, *.adservice.google.com.pe, *.adservice.google.com.ph, *.adservice.google.com.pk, *.adservice.google.com.tr, *.adservice.google.com.tw, *.adservice.google.com.vn, *.adservice.google.de, *.adservice.google.dk, *.adservice.google.es, *.adservice.google.fr, *.adservice.google.nl, *.adservice.google.no, *.adservice.google.ru, *.adservice.google.vg, *.app-measurement.com, *.doubleclick.com, *.doubleclick.net, *.doubleclickbygoogle.com, *.google-analytics.com, *.googleadservices.com, *.googlesyndication.com, *.googletagmanager.com, *.googletagservices.com, *.gstaticadssl.l.google.com, *.mail-ads.google.com, *.ssl-google-analytics.l.google.com, *.www-googletagmanager.l.google.com, adservice.google.at, adservice.google.sk"
+Google Safe Browsing API,google,google-safebrowsing,Other services and APIs,safebrowsing.googleapis.com
+Google reCAPTCHA,google,google-recaptcha,Authentication services,www.recaptcha.net
+Google Pay,google,google-pay,Other services and APIs,pay.google.com
+Google IMA SDK,google,google-imasdk,Advertising,imasdk.googleapis.com
+Google Calendar,google,google-calendar,Other services and APIs,"calendar.google.com, calendar-pa.clients6.google.com, calendarsync-pa.googleapis.com, calendarsuggest.clients6.google.com, calendarpushsubscription-pa.googleapis.com"
+Google Autofill,google,google-autofill,Other services and APIs,content-autofill.googleapis.com
+Firebase Crashlytics,google,firebase-crashlytics,Analytics & Telemetry,firebase-settings.crashlytics.com
+Chrome Remote Desktop API,google,chrome-remotedesktop,Other services and APIs,remotedesktop-pa.googleapis.com
+Facebook Graph API,facebook,facebook-graph,Other services and APIs,"graph.facebook.com, b-graph.facebook.com"
+Facebook Media,facebook,facebook-media,Streaming media,"*.xx.fbcdn.net, *.fna.fbcdn.net"
+Facebook Web,facebook,facebook-web,Social,"www.facebook.com, m.facebook.com, web.facebook.com"
+Facebook Connect,facebook,facebook-connect,Authentication services,connect.facebook.net
+Facebook Resumable Upload,facebook,facebook-rupload,File sharing,rupload.facebook.com
+Facebook Messenger,facebook,facebook-messenger,Instant messaging,www.messenger.com
+Instagram,facebook,instagram,Social,"*.cdninstagram.com, *.ig.me, *.instagram.com"
+WhatsApp,facebook,whatsapp,Instant messaging,"*.whatsapp.com, *.whatsapp.net"
+MS Outlook,microsoft,microsoft-outlook,Other services and APIs,"outlook.office365.com, m.hotmail.com, eas.outlook.com, outlook.office.com, attachments.office.net, outlook.live.com, attachment.outlook.live.net"
+MS Substrate Services,microsoft,microsoft-substrate,Other services and APIs,substrate.office.com
+TikTok,,tiktok,Social,*.tiktokv.com
+Snapchat,,snapchat,Social,"*.addlive.io, *.sc-cdn.net, *.snapchat.com"
+Unity Games,,unitygames,default,*.unity3d.com
+JsDelivr,,jsdelivr,Streaming media,cdn.jsdelivr.net
+Cloudflare CDNjs,,cloudflare-cdnjs,Streaming media,cdnjs.cloudflare.com
+Apple iCloud Private Relay,,apple-privaterelay,Other services and APIs,"mask.icloud.com, mask-canary.icloud.com"
+DoH (5 providers),,dns-doh,Other services and APIs,"*.cloudflare-dns.com, dns.google, dns.google.com, dns64.dns.google, dns.adguard.com, doh.opendns.com, odvr.nic.cz, doh.familyshield.opendns.com"
+Uber,,uber,Other services and APIs,*.uber.com
+Openx,,openx,Advertising,*.openx.net
+ConnectAd,,connectad,Advertising,*.connectad.io
+Joinhoney,,joinhoney,Advertising,*.joinhoney.com
+Dm,,dm-de,default,*.dm.de
+Revolut,,revolut,default,*.revolut.com
+Spotify,,spotify,Streaming media,*.spotify.com
+Usercentrics,,usercentrics,Analytics & Telemetry,*.usercentrics.eu
+Discord,,discord,Instant messaging,"*.discord.com, *.discord.gg, *.discord.media, *.discordapp.com, *.discordapp.net, *.discordstatus.com"
+Google Background,,google-background,default,"*.google.com, *.gstatic.com, *.googleapis.com, *.ggpht.com, *.google.at"
+Facebook Background,,facebook-background,default,"*.facebook.com, *.fb.gg, *.fbcdn.net, *.facebook.net, *.messenger.com"

@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-28",
+  "purpose": "CPU-only structural inspection; planned student instantiated in a probe, not a new training implementation or performance result",
+  "versions": {
+    "cesnet-models": "0.4.1",
+    "torch": "2.14.0",
+    "numpy": "2.5.3"
+  },
+  "checkpoint_sha256": "dc4b3333388239ac25b8c028c922965e2333cc151dd5fad951950099e86fabc4",
+  "checkpoint_strict_load": "<All keys matched successfully>",
+  "arcface_removed_shape": [
+    3000,
+    256
+  ],
+  "wrapper_params": 1004117,
+  "backbone_params": 888661,
+  "teacher_module_params": {
+    "cnn_ppi_stem": 0,
+    "packet_size_nn_embedding": 30020,
+    "packet_ipt_nn_embedding": 2000,
+    "cnn_ppi": 654592,
+    "cnn_ppi_global_pool": 1,
+    "mlp_shared": 202048,
+    "classifier": 0
+  },
+  "teacher_stage_shapes": {
+    "cnn_ppi_stem": {
+      "input": [
+        2,
+        32,
+        30
+      ],
+      "output": [
+        2,
+        32,
+        30
+      ]
+    },
+    "cnn_ppi": {
+      "input": [
+        2,
+        32,
+        30
+      ],
+      "output": [
+        2,
+        448,
+        30
+      ]
+    },
+    "cnn_ppi_global_pool": {
+      "input": [
+        2,
+        448,
+        30
+      ],
+      "output": [
+        2,
+        448
+      ]
+    },
+    "mlp_shared": {
+      "input": [
+        2,
+        448
+      ],
+      "output": [
+        2,
+        448
+      ]
+    }
+  },
+  "teacher_blocks": [
+    {
+      "index": 0,
+      "type": "Bottleneck",
+      "params": 33984,
+      "convs": [
+        {
+          "in": 32,
+          "out": 48,
+          "kernel": 1,
+          "stride": 1
+        },
+        {
+          "in": 48,
+          "out": 48,
+          "kernel": 7,
+          "stride": 1
+        },
+        {
+          "in": 48,
+          "out": 192,
+          "kernel": 1,
+          "stride": 1
+        }
+      ],
+      "dropout": "Identity()"
+    },
+    {
+      "index": 1,
+      "type": "Bottleneck",
+      "params": 107776,
+      "convs": [
+        {
+          "in": 192,
+          "out": 64,
+          "kernel": 1,
+          "stride": 1
+        },
+        {
+          "in": 64,
+          "out": 64,
+          "kernel": 7,
+          "stride": 1
+        },
+        {
+          "in": 64,
+          "out": 256,
+          "kernel": 1,
+          "stride": 1
+        }
+      ],
+      "dropout": "Dropout(p=0.10000000149011612, inplace=False)"
+    },
+    {
+      "index": 2,
+      "type": "Bottleneck",
+      "params": 207744,
+      "convs": [
+        {
+          "in": 256,
+          "out": 96,
+          "kernel": 1,
+          "stride": 1
+        },
+        {
+          "in": 96,
+          "out": 96,
+          "kernel": 5,
+          "stride": 1
+        },
+        {
+          "in": 96,
+          "out": 384,
+          "kernel": 1,
+          "stride": 1
+        }
+      ],
+      "dropout": "Dropout(p=0.20000001788139343, inplace=False)"
+    },
+    {
+      "index": 3,
+      "type": "Bottleneck",
+      "params": 305088,
+      "convs": [
+        {
+          "in": 384,
+          "out": 112,
+          "kernel": 1,
+          "stride": 1
+        },
+        {
+          "in": 112,
+          "out": 112,
+          "kernel": 3,
+          "stride": 1
+        },
+        {
+          "in": 112,
+          "out": 448,
+          "kernel": 1,
+          "stride": 1
+        }
+      ],
+      "dropout": "Dropout(p=0.30000001192092896, inplace=False)"
+    }
+  ],
+  "teacher_explicit_padding_mask_in_forward_features": false,
+  "planned_class_counts": {
+    "13": {
+      "teacher_backbone_plus_head": 894498,
+      "student_plan": 19725,
+      "student_breakdown": [
+        320,
+        6208,
+        12352,
+        845
+      ],
+      "teacher_to_student_ratio": 45.348441064638784
+    },
+    "20": {
+      "teacher_backbone_plus_head": 897641,
+      "student_plan": 20180,
+      "student_breakdown": [
+        320,
+        6208,
+        12352,
+        1300
+      ],
+      "teacher_to_student_ratio": 44.48171456888008
+    },
+    "24": {
+      "teacher_backbone_plus_head": 899437,
+      "student_plan": 20440,
+      "student_breakdown": [
+        320,
+        6208,
+        12352,
+        1560
+      ],
+      "teacher_to_student_ratio": 44.00376712328767
+    }
+  },
+  "default_scratch_initialization_probe": {
+    "size_embedding_equal_across_seeds": true,
+    "ipt_embedding_equal_across_seeds": true,
+    "first_conv_equal_across_seeds": false
+  },
+  "input_contract": {
+    "shape": [
+      2,
+      3,
+      30
+    ],
+    "channel_order": [
+      "IPT_ms",
+      "DIR",
+      "SIZE_bytes"
+    ],
+    "valid_lengths": [
+      30,
+      4
+    ],
+    "synthetic_last_packet_after_one_second_preserved": true
+  },
+  "m0_existing_feature_names": [
+    "packet_count",
+    "forward_count",
+    "reverse_count",
+    "direction_changes",
+    "ipt_mean",
+    "ipt_std",
+    "ipt_min",
+    "ipt_max",
+    "ipt_sum",
+    "ipt_median",
+    "size_mean",
+    "size_std",
+    "size_min",
+    "size_max",
+    "size_sum",
+    "size_median"
+  ],
+  "m0_synthetic_features": [
+    [
+      30.0,
+      15.0,
+      15.0,
+      29.0,
+      43.5,
+      25.966323852539062,
+      0.0,
+      87.0,
+      1305.0,
+      43.5,
+      390.0,
+      173.10882568359375,
+      100.0,
+      680.0,
+      11700.0,
+      390.0
+    ],
+    [
+      4.0,
+      2.0,
+      2.0,
+      3.0,
+      250.25,
+      432.8685607910156,
+      0.0,
+      1000.0,
+      1001.0,
+      0.5,
+      715.0,
+      643.836181640625,
+      70.0,
+      1500.0,
+      2860.0,
+      645.0
+    ]
+  ],
+  "student_probe_scaling": "log1p(IPT)/log1p(65000), DIR unchanged, SIZE/1500; candidate fixed scaling, not validation-selected",
+  "limitations": [
+    "No training or accuracy/latency benchmark",
+    "No new split or cleaned dataset generated",
+    "No full audit of all historic campaigns",
+    "Student probe verifies proposed dimensions, not production training integration"
+  ],
+  "paper_transfer_path_probe": {
+    "date": "2026-10-28",
+    "reason": "Paper V-A uses post-pooling features before refinement; proposed path, not an executed training change",
+    "removed_refinement_parameters": 202048,
+    "base_without_refinement": 686613,
+    "class_counts": {
+      "13": {
+        "parameters": 692450,
+        "output_shape": [
+          2,
+          13
+        ]
+      },
+      "20": {
+        "parameters": 695593,
+        "output_shape": [
+          2,
+          20
+        ]
+      }
+    },
+    "weights_loaded": false,
+    "optimization_steps": 0
+  }
+}

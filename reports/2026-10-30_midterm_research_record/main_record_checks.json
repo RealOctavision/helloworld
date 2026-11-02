@@ -1,0 +1,48 @@
+{
+  "main_frozen_sha256": "e8f529a9d1e080c3a5c1faba10b20b439ab6221206173258aa51e74dd4197054",
+  "cpu_benchmark_source_sha256": "d0319321c4e2d10d7a530fc799c4dd713eb8c5987593c98526de5f024682e1f2",
+  "training_verified": true,
+  "main_completed_fits": 30,
+  "monthly_evaluation": "verified_completed_60",
+  "cpu_benchmark": "verified_completed_30",
+  "cpu_session_id": 79267,
+  "benchmark_memory_permission": "Sandbox denied ps; approved scoped elevated benchmark command reads only its own RSS and CPU model.",
+  "automation_id": "30",
+  "gpu_release": {
+    "released": true,
+    "verified_at_utc": "2026-10-30T15:17:21.152Z",
+    "ui": "다시 연결 A100 연결하려면 클릭",
+    "training_sha256": "0a6ed0ab2a84e29c76734c5f09d377d6f7a9219c2b4d6ae0ecfd579ac22735be",
+    "evaluation_sha256": "083e2ab53fa66d6fcb414e42e5205211aebb8378e182cbbce37b60b1a1fd51b1",
+    "metadata_sha256": "161cf40c60e15997f41d723e926c887f7081d051eedc4448872c13f2cf716dd4",
+    "verified_local_before_release": true
+  },
+  "raw_cpu_observations": 33000,
+  "main_summary": {
+    "training": "experiments/2026-10-30_midterm_restart/main_recovered/training_0a6ed0ab2a84e29c/verified_training.json",
+    "completed_fits": 30,
+    "monthly_evaluation_complete": true,
+    "cpu_benchmark_complete": true,
+    "evaluation": "experiments/2026-10-30_midterm_restart/main_recovered/evaluation_083e2ab53fa66d6f/verified_evaluation.json",
+    "april_teacher_student_loss_pp": [
+      20.1755364663172,
+      20.8036755234558,
+      22.988884615201112,
+      17.783489489336734,
+      23.390012188105725
+    ],
+    "april_loss_mean_pp": 21.028319656483315
+  },
+  "automation_status": "deleted",
+  "review": "Author self-check against frozen protocol and recovered records; no independent reviewer",
+  "visual_preview": "Local file URL browser preview previously blocked; HTML source and link integrity checked separately",
+  "html_check": {
+    "local_links": 127,
+    "missing": [],
+    "duplicate_anchors": 0,
+    "placeholders_resolved": true,
+    "main_counts_and_key_values_present": true
+  },
+  "html_sha256": "48868973c368140a93433bffaf81000f4b82e1daec91e6ed6385466497bcfcc5",
+  "automation_delete_confirmed": true
+}

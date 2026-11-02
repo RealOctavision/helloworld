@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "created_at": "2026-10-30T23:24:36.521401+09:00",
+  "authorization": "2026-10-30 user: ㅇㅋ 바로 진행 ㄱㄱ; representative main30 + April/May evaluation + local CPU benchmark",
+  "status": "frozen_before_main_and_evaluation",
+  "base_config_sha256": "f1b4de11292ae7bbd0d4a76f47deedf6f63798e8edc509e55a2a82f9ed8409fa",
+  "development_verification_sha256": "8175323566d40922b8450d47a25e36760d93cd1ae35de8383522ffb71014b007",
+  "development_archive_sha256": "1c41e56d0f3ef16be123da67ec32bcce399ea562568e4200c696ccadda08bc37",
+  "selected": {
+    "M1": 0.001,
+    "M2": 0.0001,
+    "M3": 0.003,
+    "M0": 31
+  },
+  "kd": {
+    "alpha": 0.5,
+    "temperature": 1
+  },
+  "epochs": 50,
+  "epochs_frozen": true,
+  "cohort": "google_included20",
+  "budget": 200,
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "planned_fits": 30,
+  "evaluation_months": [
+    "202504",
+    "202505"
+  ],
+  "rationale": "Selected neural runs best before epoch50; final validation curves plateau; not a proof of global convergence. Keep common schedule; no post-test tuning.",
+  "selection_rule": "February validation Macro-F1, then lower GT CE, then earlier epoch; development grid selected by prespecified means.",
+  "evaluation": {
+    "device": "CUDA for neural models; CPU1 thread M0",
+    "batch_size": 1024,
+    "groups": [
+      "all",
+      "train_overlap",
+      "train_nonoverlap",
+      "common_unseen"
+    ],
+    "compact_prediction_storage": [
+      "id",
+      "y",
+      "predicted_label",
+      "true_log_probability",
+      "maximum_probability"
+    ],
+    "full_probability_vectors": "Not retained to avoid bulk GPU transfer; reproducible from preserved checkpoints and exact inputs; all requested F1/accuracy/CE/confusions and subset scores recoverable from compact predictions."
+  },
+  "local_cpu_benchmark": {
+    "threads": 1,
+    "precision": "FP32",
+    "batch1_warmup": 100,
+    "batch1_iterations": 1000,
+    "throughput_batch": 128,
+    "throughput_warmup": 10,
+    "throughput_iterations": 100,
+    "input": "Fixed February validation sample; data loading/canonicalization and packet waiting excluded; internal transforms included; M0 statistics extraction measured separately and together.",
+    "memory": "Each model in isolated process: RSS before model load, loaded RSS, post-warmup RSS, process peak RSS; delta not equated to intrinsic model memory."
+  },
+  "cost": {
+    "run_limit_minutes": 45,
+    "no_purchase": true,
+    "release_after_verified_recovery": true
+  },
+  "no_additional_budgets_or_structures": true
+}

@@ -1,0 +1,70 @@
+{
+  "verified_before_gpu_release": true,
+  "checked_utc": "2026-10-30T18:07:02.320481+00:00",
+  "archive_count": 11,
+  "bytes": 1867641943,
+  "records": [
+    {
+      "stage": "mixed_n50",
+      "kind": "training",
+      "completed": 30,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n50/training_51a644691955d138/verified_training.json"
+    },
+    {
+      "stage": "mixed_n50",
+      "kind": "evaluation",
+      "completed": 50,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n50/evaluation_0faf1b0171c54fe0/verified_evaluation.json"
+    },
+    {
+      "stage": "mixed_n100",
+      "kind": "training",
+      "completed": 30,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n100/training_a752b18aebfd41e5/verified_training.json"
+    },
+    {
+      "stage": "mixed_n100",
+      "kind": "evaluation",
+      "completed": 50,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n100/evaluation_0290e45887a82a2e/verified_evaluation.json"
+    },
+    {
+      "stage": "mixed_n1000",
+      "kind": "training",
+      "completed": 30,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n1000/training_df150d74a25ff1f5/verified_training.json"
+    },
+    {
+      "stage": "mixed_n1000",
+      "kind": "evaluation",
+      "completed": 50,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/mixed_n1000/evaluation_faa1271f08c656a5/verified_evaluation.json"
+    },
+    {
+      "stage": "nongoogle_n200",
+      "kind": "training",
+      "completed": 30,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/nongoogle_n200/training_ce7744b1f97a6366/verified_training.json"
+    },
+    {
+      "stage": "nongoogle_n200",
+      "kind": "evaluation",
+      "completed": 50,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/nongoogle_n200/evaluation_9066f6a60ba8fd38/verified_evaluation.json"
+    },
+    {
+      "stage": "googleonly_n200",
+      "kind": "training",
+      "completed": 30,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/googleonly_n200/training_7e6253252c0ee856/verified_training.json"
+    },
+    {
+      "stage": "googleonly_n200",
+      "kind": "evaluation",
+      "completed": 50,
+      "verification": "experiments/2026-10-30_midterm_restart/continuation_recovered/googleonly_n200/evaluation_ff75d98ab00d9b86/verified_evaluation.json"
+    }
+  ],
+  "archive_hashes_source": "recovery_index.json",
+  "note": "Whole archive SHA checked by recovery and stage verifier; CRC, internal hashes and record coverage passed."
+}

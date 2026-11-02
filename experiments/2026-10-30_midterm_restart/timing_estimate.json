@@ -1,0 +1,73 @@
+{
+  "device": "local CPU only",
+  "threads": 2,
+  "full_validation_rows": 4000,
+  "full_validation_forward_seconds": {
+    "M1": 19.491911582998,
+    "M2": 19.66409333300544,
+    "M3": 0.3143542920006439
+  },
+  "measured_train_seconds_per_update": {
+    "M1": 0.6632530806873547,
+    "M2": 0.6685473958123112,
+    "M3": 0.01431383856197499,
+    "M4": 0.01386292706229142,
+    "M5": 0.013779187499494583
+  },
+  "assumed_epochs": 50,
+  "epochs_frozen": false,
+  "primary_cohort_estimates": {
+    "50": {
+      "per_model_seconds": {
+        "M1": 1259.3887230078399,
+        "M2": 1270.2877183082019,
+        "M3": 21.757604316822835,
+        "M4": 26.450217612698907,
+        "M5": 26.459767225082032
+      },
+      "five_repeats_neural_seconds": 13021.720152353228
+    },
+    "100": {
+      "per_model_seconds": {
+        "M1": 1524.6899552827817,
+        "M2": 1537.7066766331263,
+        "M3": 27.48313974161283,
+        "M4": 36.868366333364975,
+        "M5": 36.887465558131225
+      },
+      "five_repeats_neural_seconds": 15818.178017745086
+    },
+    "200": {
+      "per_model_seconds": {
+        "M1": 2055.2924198326655,
+        "M2": 2072.5445932829753,
+        "M3": 38.93421059119282,
+        "M4": 57.70466377469711,
+        "M5": 57.74286222422961
+      },
+      "five_repeats_neural_seconds": 21411.0937485288
+    },
+    "1000": {
+      "per_model_seconds": {
+        "M1": 6200.624174128632,
+        "M2": 6250.96581710992,
+        "M3": 128.3957016035365,
+        "M4": 222.31560424601048,
+        "M5": 222.5191574280925
+      },
+      "five_repeats_neural_seconds": 65124.10227258096
+    }
+  },
+  "development_neural_seconds": 27078.682810221682,
+  "all_four_budgets_main_neural_seconds": 115375.09419120807,
+  "T4_estimate": null,
+  "T4_reason": "No GPU allocated or measured in this preparation task",
+  "exclusions": [
+    "LightGBM fitting",
+    "April/May final inference",
+    "transfer/setup time",
+    "long-run thermal effects",
+    "additional development epoch changes"
+  ],
+  "interpretation": "Linear planning approximation from a short CPU run; not a runtime guarantee or a GPU forecast. Teacher-logit caching can reduce repeated KD cost."
+}

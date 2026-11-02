@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-31T15:50:14.263720</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.56 30.96 
+L 39.6 30.96 
+L 39.6 16.56 
+L 34.56 16.56 
+z
+" clip-path="url(#p02f2ee5307)" style="fill: #077c82"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 46.8 596.16 
+L 1105.2 596.16 
+" clip-path="url(#p02f2ee5307)" style="fill: none; stroke: #d7e3e8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.5px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #5b707a" x="50.4" y="27.435" transform="rotate(-0 50.4 27.435)">09M5  /  CAPSTONE · QUIC TRAFFIC CLASSIFICATION</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 26px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #193744" x="46.8" y="75.431406" transform="rotate(-0 46.8 75.431406)">Google 계열20 전체 혼동행렬 · M5</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #5b707a" x="48.24" y="109.132812" transform="rotate(-0 48.24 109.132812)">M2 증류 학생 · 행=실제 서비스 / 열=예측 서비스 · 비율(%)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #5b707a" x="48.96" y="623.695078" transform="rotate(-0 48.96 623.695078)">서비스당 200개 · 4월 All · 5 seed 평균 · 대각선 및 5% 이상만 숫자 표시 · 모든 셀 값은 동봉 CSV에 보존</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #5b707a" x="1101.6" y="623.878828" transform="rotate(-0 1101.6 623.878828)">09M5</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 184.32 492.48 
+L 1013.76 492.48 
+L 1013.76 162 
+L 184.32 162 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pf25512363b)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagee3c3913adb" transform="scale(1 -1) translate(0 -330.48)" x="184.32" y="-162" width="829.44" height="330.48"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(185.999599 516.517566) rotate(-38)">www</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(231.079211 513.698991) rotate(-38)">play</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_4"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(259.715255 523.727539) rotate(-38)">services</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_5"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(305.797118 520.12592) rotate(-38)">gstatic</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_6"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(329.327098 534.143762) rotate(-38)">usercontent</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_7"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(362.736763 540.442748) rotate(-38)">authentication</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_8"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(435.03599 516.357879) rotate(-38)">fonts</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_9"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(476.885989 516.062554) rotate(-38)">drive</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_10"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(519.665594 515.040941) rotate(-38)">docs</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_11"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(553.49389 521.012857) rotate(-38)">photos</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_12"/>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(589.111216 525.587029) rotate(-38)">translate</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_13"/>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(632.048424 524.442284) rotate(-38)">youtube</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_14"/>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(670.306817 526.953028) rotate(-38)">hangouts</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_15"/>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(731.060455 511.888562) rotate(-38)">ads</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_16"/>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(740.107044 537.222069) rotate(-38)">safebrowsing</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_17"/>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(792.815585 528.443121) rotate(-38)">recaptcha</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_18"/>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(843.593499 521.172544) rotate(-38)">imasdk</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_19"/>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(880.27464 524.915574) rotate(-38)">calendar</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_20"/>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(926.930274 520.865675) rotate(-38)">autofill</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_21"/>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; fill: #47606b" transform="translate(956.827134 529.909165) rotate(-38)">crashlytics</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_22"/>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="174.762" transform="rotate(-0 180.82 174.762)">www</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_23"/>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="191.286" transform="rotate(-0 180.82 191.286)">play</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_24"/>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="207.81" transform="rotate(-0 180.82 207.81)">services</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25"/>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="224.334" transform="rotate(-0 180.82 224.334)">gstatic</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_26"/>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="240.858" transform="rotate(-0 180.82 240.858)">usercontent</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_27"/>
+     <g id="text_31">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="257.382" transform="rotate(-0 180.82 257.382)">authentication</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_28"/>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="273.906" transform="rotate(-0 180.82 273.906)">fonts</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_29"/>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="290.43" transform="rotate(-0 180.82 290.43)">drive</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_30"/>
+     <g id="text_34">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="306.954" transform="rotate(-0 180.82 306.954)">docs</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_31"/>
+     <g id="text_35">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="323.478" transform="rotate(-0 180.82 323.478)">photos</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_32"/>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="340.002" transform="rotate(-0 180.82 340.002)">translate</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_33"/>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="356.526" transform="rotate(-0 180.82 356.526)">youtube</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_34"/>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="373.05" transform="rotate(-0 180.82 373.05)">hangouts</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_35"/>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="389.574" transform="rotate(-0 180.82 389.574)">ads</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_36"/>
+     <g id="text_40">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="406.098" transform="rotate(-0 180.82 406.098)">safebrowsing</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_37"/>
+     <g id="text_41">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="422.622" transform="rotate(-0 180.82 422.622)">recaptcha</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_38"/>
+     <g id="text_42">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="439.146" transform="rotate(-0 180.82 439.146)">imasdk</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_39"/>
+     <g id="text_43">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="455.67" transform="rotate(-0 180.82 455.67)">calendar</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_40"/>
+     <g id="text_44">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="472.194" transform="rotate(-0 180.82 472.194)">autofill</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_41"/>
+     <g id="text_45">
+      <text style="font-size: 10px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: end; fill: #47606b" x="180.82" y="488.718" transform="rotate(-0 180.82 488.718)">crashlytics</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 184.32 492.48 
+L 184.32 162 
+" style="fill: none; stroke: #b8c8cf; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 184.32 492.48 
+L 1013.76 492.48 
+" style="fill: none; stroke: #b8c8cf; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="205.056" y="172.962" transform="rotate(-0 205.056 172.962)">3.1</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="172.962" transform="rotate(-0 370.944 172.962)">6.2</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="172.962" transform="rotate(-0 453.888 172.962)">10.9</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="172.962" transform="rotate(-0 578.304 172.962)">11.9</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="172.962" transform="rotate(-0 661.248 172.962)">9.9</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="172.962" transform="rotate(-0 744.192 172.962)">6.2</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="172.962" transform="rotate(-0 910.08 172.962)">6.7</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="172.962" transform="rotate(-0 993.024 172.962)">14.7</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="246.528" y="189.486" transform="rotate(-0 246.528 189.486)">32.3</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="189.486" transform="rotate(-0 578.304 189.486)">7.8</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="189.486" transform="rotate(-0 661.248 189.486)">6.9</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="189.486" transform="rotate(-0 744.192 189.486)">10.8</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="246.528" y="206.01" transform="rotate(-0 246.528 206.01)">9.8</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="288" y="206.01" transform="rotate(-0 288 206.01)">16.7</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="206.01" transform="rotate(-0 370.944 206.01)">16.0</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="206.01" transform="rotate(-0 661.248 206.01)">7.6</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="702.72" y="206.01" transform="rotate(-0 702.72 206.01)">5.7</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="329.472" y="222.534" transform="rotate(-0 329.472 222.534)">28.4</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="222.534" transform="rotate(-0 453.888 222.534)">9.5</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="785.664" y="222.534" transform="rotate(-0 785.664 222.534)">13.9</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="951.552" y="222.534" transform="rotate(-0 951.552 222.534)">15.4</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="222.534" transform="rotate(-0 993.024 222.534)">6.0</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="239.058" transform="rotate(-0 370.944 239.058)">44.7</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="239.058" transform="rotate(-0 910.08 239.058)">32.3</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="412.416" y="255.582" transform="rotate(-0 412.416 255.582)">29.8</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="255.582" transform="rotate(-0 578.304 255.582)">10.8</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="255.582" transform="rotate(-0 661.248 255.582)">7.1</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="255.582" transform="rotate(-0 910.08 255.582)">6.7</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="255.582" transform="rotate(-0 993.024 255.582)">16.5</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="272.106" transform="rotate(-0 453.888 272.106)">24.9</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="702.72" y="272.106" transform="rotate(-0 702.72 272.106)">6.9</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="785.664" y="272.106" transform="rotate(-0 785.664 272.106)">17.9</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="272.106" transform="rotate(-0 868.608 272.106)">8.1</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="272.106" transform="rotate(-0 993.024 272.106)">11.2</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="246.528" y="288.63" transform="rotate(-0 246.528 288.63)">6.9</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="412.416" y="288.63" transform="rotate(-0 412.416 288.63)">6.6</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="495.36" y="288.63" transform="rotate(-0 495.36 288.63)">19.5</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="536.832" y="288.63" transform="rotate(-0 536.832 288.63)">18.9</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="288.63" transform="rotate(-0 578.304 288.63)">5.9</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="288.63" transform="rotate(-0 661.248 288.63)">8.4</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="288.63" transform="rotate(-0 868.608 288.63)">5.4</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="246.528" y="305.154" transform="rotate(-0 246.528 305.154)">5.3</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="412.416" y="305.154" transform="rotate(-0 412.416 305.154)">6.9</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="495.36" y="305.154" transform="rotate(-0 495.36 305.154)">6.1</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="536.832" y="305.154" transform="rotate(-0 536.832 305.154)">26.6</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="305.154" transform="rotate(-0 578.304 305.154)">9.2</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="305.154" transform="rotate(-0 661.248 305.154)">7.2</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="827.136" y="305.154" transform="rotate(-0 827.136 305.154)">6.4</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="495.36" y="321.678" transform="rotate(-0 495.36 321.678)">9.5</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="536.832" y="321.678" transform="rotate(-0 536.832 321.678)">10.3</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="321.678" transform="rotate(-0 578.304 321.678)">23.6</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="321.678" transform="rotate(-0 868.608 321.678)">5.8</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="321.678" transform="rotate(-0 910.08 321.678)">10.9</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="321.678" transform="rotate(-0 993.024 321.678)">8.9</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="412.416" y="338.202" transform="rotate(-0 412.416 338.202)">5.1</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="338.202" transform="rotate(-0 453.888 338.202)">5.1</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="536.832" y="338.202" transform="rotate(-0 536.832 338.202)">6.6</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="338.202" transform="rotate(-0 578.304 338.202)">6.8</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="619.776" y="338.202" transform="rotate(-0 619.776 338.202)">13.4</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="338.202" transform="rotate(-0 744.192 338.202)">7.1</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="338.202" transform="rotate(-0 993.024 338.202)">15.9</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="354.726" transform="rotate(-0 370.944 354.726)">9.4</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="412.416" y="354.726" transform="rotate(-0 412.416 354.726)">6.4</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="354.726" transform="rotate(-0 578.304 354.726)">6.2</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="354.726" transform="rotate(-0 661.248 354.726)">24.8</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="785.664" y="354.726" transform="rotate(-0 785.664 354.726)">6.6</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="354.726" transform="rotate(-0 993.024 354.726)">13.6</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="495.36" y="371.25" transform="rotate(-0 495.36 371.25)">15.2</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="536.832" y="371.25" transform="rotate(-0 536.832 371.25)">8.4</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="371.25" transform="rotate(-0 578.304 371.25)">10.3</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="371.25" transform="rotate(-0 661.248 371.25)">7.4</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="702.72" y="371.25" transform="rotate(-0 702.72 371.25)">21.0</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="371.25" transform="rotate(-0 868.608 371.25)">6.5</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="387.774" transform="rotate(-0 453.888 387.774)">7.2</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="387.774" transform="rotate(-0 578.304 387.774)">8.8</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="387.774" transform="rotate(-0 661.248 387.774)">8.0</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="702.72" y="387.774" transform="rotate(-0 702.72 387.774)">6.4</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="387.774" transform="rotate(-0 744.192 387.774)">9.2</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="387.774" transform="rotate(-0 868.608 387.774)">5.5</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="387.774" transform="rotate(-0 910.08 387.774)">5.7</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="387.774" transform="rotate(-0 993.024 387.774)">18.7</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="329.472" y="404.298" transform="rotate(-0 329.472 404.298)">7.6</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="404.298" transform="rotate(-0 453.888 404.298)">7.8</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="785.664" y="404.298" transform="rotate(-0 785.664 404.298)">46.2</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="951.552" y="404.298" transform="rotate(-0 951.552 404.298)">18.9</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="246.528" y="420.822" transform="rotate(-0 246.528 420.822)">9.8</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="420.822" transform="rotate(-0 370.944 420.822)">38.4</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="827.136" y="420.822" transform="rotate(-0 827.136 420.822)">30.2</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="420.822" transform="rotate(-0 910.08 420.822)">9.3</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="453.888" y="437.346" transform="rotate(-0 453.888 437.346)">13.3</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="437.346" transform="rotate(-0 661.248 437.346)">7.3</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="702.72" y="437.346" transform="rotate(-0 702.72 437.346)">9.6</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="437.346" transform="rotate(-0 744.192 437.346)">6.6</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="785.664" y="437.346" transform="rotate(-0 785.664 437.346)">5.9</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="868.608" y="437.346" transform="rotate(-0 868.608 437.346)">16.3</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="437.346" transform="rotate(-0 993.024 437.346)">14.5</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="370.944" y="453.87" transform="rotate(-0 370.944 453.87)">5.7</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="578.304" y="453.87" transform="rotate(-0 578.304 453.87)">11.4</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="661.248" y="453.87" transform="rotate(-0 661.248 453.87)">9.7</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="910.08" y="453.87" transform="rotate(-0 910.08 453.87)">33.2</text>
+   </g>
+   <g id="text_146">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="993.024" y="453.87" transform="rotate(-0 993.024 453.87)">22.0</text>
+   </g>
+   <g id="text_147">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="329.472" y="470.394" transform="rotate(-0 329.472 470.394)">10.0</text>
+   </g>
+   <g id="text_148">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #193744" x="744.192" y="470.394" transform="rotate(-0 744.192 470.394)">7.4</text>
+   </g>
+   <g id="text_149">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="951.552" y="470.394" transform="rotate(-0 951.552 470.394)">60.6</text>
+   </g>
+   <g id="text_150">
+    <text style="font-size: 9px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="993.024" y="486.918" transform="rotate(-0 993.024 486.918)">82.7</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_6">
+    <path d="M 1036.8 492.48 
+L 1054.08 492.48 
+L 1054.08 162 
+L 1036.8 162 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABgAAAHLCAYAAADSqljNAAACyklEQVR4nO1d0ZUcMQjT8Nx/fylm0HUQ7kfJCEsFSA8jwGZv9x7yDyFEQYxDSAOAPgKgtQKk/xFRKlBSdsSm38gBtS46G3oR7QutpQIlZceOHFBcaPA/IsSm621Ke5vC3qZckANKBWrDPGipQEnZscKmtI8A9hGQ4lUC/I8I7hHAPgKKbVr2LjobkgzzCFosUP/AplqUvYvOhiN6pAIlZceKHLR9s6NcgFqB0tJjg01pn4NWC9D+iCgWKDE/MtEumGhngU2hRYn5kWY3IoU2Ija9o1U8UoGSsiNXx1tsCilKS48NW8dWXx3bP8l076bvghxAivKfaB2bDohNR2QejDivfaG1fzelVqD858Ebmw6ITW8otFf/wnmkAiVlx44kQ4sS82NBDlpcB8f/iF77CDoR7C+0V0qP2PSSQnukArVhZwcpSkuPFR81UitQWnrEpjPSi0ak0D6xHH+kAiVlRz4R/wVy8fpCoUGLEvNjw7WFaXbbXXTyPpiQmTwizW5EJtqITLQR+fOfG/5qmYlg/89s0T/JrRUoLT025KDtIyDNBUpLjxURdH6BabuLTnrR/iSXlh4rImi1ANNN/47YdETa9Yi8cEak0EZklXDD0G/7ZQjscwDxC+TA/uL12D/EEZsOSKF94ojg3ipo3yo6EayfaLAvNCzIAaUCZX8vOrm2TEih3VBoUC/Hn3TTASm0D9gU/pVM+wjaPYIny5D9SYZ/kmmfg7aPgHIBSgVKyo4sx3+BtIovXB3pXmhYEAGkKC09dkw0qgUgRWnpsSHJT1rFehedBYVG90KDfatAXjgDkuQRmWgj8sK5Yx5AitLSY0MOKP4q0aE4yyVlx5LvQrV9obX9fx9usQDtj4j2EcA+AvpHQLVASwVKyo7Y9BdIoY04yES7oFXQPgJkHuxPMu0jgH0EzAvnP4/MkrIjy5BLCg3+Nm2pgDyCH2cf5R954T3JAAAAAElFTkSuQmCC" id="imagedc12bcb908" transform="scale(1 -1) translate(0 -330.48)" x="1036.8" y="-162" width="17.28" height="330.48"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_21">
+     <g id="line2d_42">
+      <defs>
+       <path id="ma41544c036" d="M 0 0 
+L 3.5 0 
+" style="stroke: #47606b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="492.48" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_151">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="498.78" transform="rotate(-0 1061.08 498.78)">0</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="426.384" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_152">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="432.684" transform="rotate(-0 1061.08 432.684)">20</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="360.288" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_153">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="366.588" transform="rotate(-0 1061.08 366.588)">40</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="294.192" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_154">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="300.492" transform="rotate(-0 1061.08 300.492)">60</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="228.096" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_155">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="234.396" transform="rotate(-0 1061.08 234.396)">80</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#ma41544c036" x="1054.08" y="162" style="fill: #47606b; stroke: #47606b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_156">
+      <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: start; fill: #47606b" x="1061.08" y="168.3" transform="rotate(-0 1061.08 168.3)">100</text>
+     </g>
+    </g>
+    <g id="text_157">
+     <text style="font-size: 14px; font-family: 'Apple SD Gothic Neo', 'DejaVu Sans'; text-anchor: middle; fill: #29404b" x="1100.318437" y="327.24" transform="rotate(-90 1100.318437 327.24)">예측 비율 (%)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_7">
+    <path d="M 1036.8 492.48 
+L 1045.44 492.48 
+L 1054.08 492.48 
+L 1054.08 162 
+L 1045.44 162 
+L 1036.8 162 
+L 1036.8 492.48 
+z
+" style="fill: none; stroke: #b8c8cf; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p02f2ee5307">
+   <rect x="0" y="0" width="1152" height="648"/>
+  </clipPath>
+  <clipPath id="pf25512363b">
+   <rect x="184.32" y="162" width="829.44" height="330.48"/>
+  </clipPath>
+ </defs>
+</svg>

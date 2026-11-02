@@ -1,0 +1,5 @@
+# Versions used by the local readiness check. Linux/T4 uses its own compatible Torch wheel.
+numpy==2.5.3
+torch==2.14.0
+cesnet-models==0.4.1
+lightgbm==4.6.0

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "source_sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab",
+  "source_id_audit": {
+    "rows": 10000000,
+    "unique_ids": 10000000,
+    "duplicate_excess_rows": 0,
+    "repeated_ids": 0
+  },
+  "synthetic_checks": "analyze.py self_test passed: all 30 prefixes, two policies, pooled/monthly, direct grouping/pair checks",
+  "real_data_direct_dictionary_checks": [
+    {
+      "cohort": "non_google20",
+      "period": "202501",
+      "packets": 1,
+      "rows": 252926,
+      "pass_exact": true
+    },
+    {
+      "cohort": "non_google20",
+      "period": "202501",
+      "packets": 5,
+      "rows": 252926,
+      "pass_exact": true
+    },
+    {
+      "cohort": "non_google20",
+      "period": "202501",
+      "packets": 30,
+      "rows": 252926,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_included20",
+      "period": "202501",
+      "packets": 1,
+      "rows": 567806,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_included20",
+      "period": "202501",
+      "packets": 5,
+      "rows": 567806,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_included20",
+      "period": "202501",
+      "packets": 30,
+      "rows": 567806,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_family24",
+      "period": "202501",
+      "packets": 1,
+      "rows": 457682,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_family24",
+      "period": "202501",
+      "packets": 5,
+      "rows": 457682,
+      "pass_exact": true
+    },
+    {
+      "cohort": "google_family24",
+      "period": "202501",
+      "packets": 30,
+      "rows": 457682,
+      "pass_exact": true
+    }
+  ],
+  "aggregation_checks": {
+    "service_sum_groups": 2340,
+    "monthly_vs_pooled": true
+  },
+  "exact_prefix_monotonicity": true,
+  "raw_clipped_equal": {
+    "summary": 2340,
+    "by_service": 49920,
+    "pairs": 136000,
+    "january_overlap": 704
+  },
+  "code_sha256": "bb7491dcbf772dbfc521a4de9ae327b18b8b9023d193d38b39cdbaecee294dfa",
+  "browser_visual_review": false,
+  "browser_note": "No real-browser rendering claimed; separate offline JavaScript checks recorded in report folder.",
+  "new_training_runs": 0,
+  "source_modified": false
+}

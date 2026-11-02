@@ -1,0 +1,40 @@
+{
+  "report_sha256": "97f26ea0e1fca70001a476d8cd3a87e4854a8140e70b52aaee862a3334ef2122",
+  "html_bytes": 6116084,
+  "body_chapters": 11,
+  "appendices": 6,
+  "tables": 69,
+  "embedded_figures": 7,
+  "details": 66,
+  "local_links_checked": 492,
+  "missing_local_links": [],
+  "counts": {
+    "development_fits": 60,
+    "main_fits": 180,
+    "monthly_evaluations": 360,
+    "cpu_models": 180,
+    "qa": 24
+  },
+  "verified_scope": "Static HTML structure, embedded data, existing evidence links, data arithmetic and original aggregate consistency; plot image inspection",
+  "browser_render_check": "Not performed: CUA policy blocked file URL. No workaround used.",
+  "new_training": false,
+  "original_experiment_artifacts_modified": false,
+  "review": "Data validity results, representation differences, training costs, research contribution, statistical wording, and next-step priorities clarified. Repetitive operations prose moved to appendices; numeric source data unchanged.",
+  "numeric_data_sha256": "cae245a528121a4839edd6a7b65b2b4aeb4679e24a114a3491f12aa7801648a2",
+  "word": {
+    "path": "midterm_report.docx",
+    "sha256": "761195c868324aeb449d639c5bd26ce7071318567b9c8b785a9d71d5c7743ab2",
+    "pages": 40,
+    "tables": 46,
+    "figures": 7,
+    "qa": 24,
+    "render": "review/word_render_final",
+    "visual_check": "Inspected every page of v2; re-inspected final pages 25 and 37–40. All other final page content pixel-identical to inspected v2, excluding footer page numbers.",
+    "scope": "Reviewed main text and core appendices. Full per-fit ledgers remain in HTML.",
+    "checks": [
+      "All 24 question titles preserved",
+      "DOCX ZIP CRC passed",
+      "Tables and figures readable; no content clipping observed"
+    ]
+  }
+}

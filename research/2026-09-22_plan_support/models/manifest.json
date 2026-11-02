@@ -1,0 +1,16 @@
+{
+  "retrieved_date": "2026-09-22",
+  "url": "https://liberouter.org/datazoo/download?bucket=cesnet-models&file=30pktTCNET_256_CESNET_QUIC22_Week46_Domains.pth",
+  "file": "30pktTCNET_256_CESNET_QUIC22_Week46_Domains.pth",
+  "bytes": 7179018,
+  "sha256": "dc4b3333388239ac25b8c028c922965e2333cc151dd5fad951950099e86fabc4",
+  "package_tested": "cesnet-models==0.4.1",
+  "upstream_source_commit": "94b04ed9ab7785c6889285c2075f0ce24333c3bf",
+  "pretraining_dataset": "CESNET-QUIC22",
+  "pretraining_period": "W-2022-46",
+  "code_license": "BSD-3-Clause (reference/models_LICENCE)",
+  "weight_specific_license": "Separate checkpoint-specific license not independently confirmed",
+  "verified": "weights_only=True; official arcface_module.W removal; strict=True; finite synthetic and 4 real training flow forward",
+  "notes": "No target-task training or performance evaluation",
+  "real_data_result": "../checks/teacher_real_data_result.json"
+}

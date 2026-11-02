@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "created_at": "2026-10-31T00:30:49.005337+09:00",
+  "authorization": "2026-10-31 user: 남은것들도 계속 이어서 진행 ㄱㄱ",
+  "main_frozen_sha256": "e8f529a9d1e080c3a5c1faba10b20b439ab6221206173258aa51e74dd4197054",
+  "core_source_sha256": {
+    "config.json": "f1b4de11292ae7bbd0d4a76f47deedf6f63798e8edc509e55a2a82f9ed8409fa",
+    "data.py": "9bfcaced8696fe9e4dd348e493a6a7931038753517e5620beb203731ac4734a4",
+    "models.py": "8e01ad21e877e7c9e54b69eb73f2283ebe1367a7a6392853d0583216dfbd16b1",
+    "training.py": "e25568e097d4b1d04465123554e3f54c18e971aa6030b51b04bdf336438fc955",
+    "colab_main.py": "fd7d7b50f5ba9dcfcf577fda861a267c22426673aa6a31d13467b30567489e4a"
+  },
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "planned_fits": 150,
+  "planned_evaluations": 300,
+  "stages": [
+    {
+      "id": "mixed_n50",
+      "cohort": "google_included20",
+      "budget": 50
+    },
+    {
+      "id": "mixed_n100",
+      "cohort": "google_included20",
+      "budget": 100
+    },
+    {
+      "id": "mixed_n1000",
+      "cohort": "google_included20",
+      "budget": 1000
+    },
+    {
+      "id": "nongoogle_n200",
+      "cohort": "non_google13",
+      "budget": 200
+    },
+    {
+      "id": "googleonly_n200",
+      "cohort": "google_only20",
+      "budget": 200
+    }
+  ],
+  "constraints": {
+    "epochs": 50,
+    "common_kd_alpha": 0.5,
+    "common_kd_temperature": 1,
+    "retune": false,
+    "neural_training": "CUDA FP32",
+    "session_minutes": 110,
+    "release_after_verified_recovery": true
+  },
+  "scope_note": "90 label-expansion fits plus 60 representative other-cohort fits. Already completed mixed200 never retrained. No optional ablation, new architecture, FLOWSTATS or additional cohort label budgets in this campaign.",
+  "evaluation_note": "Neural evaluation remains CUDA; M0 evaluation on local CPU1 LightGBM4.6.0 after recovery, same model/input/features and batch1024. Validate previous representative M0 predictions before launch. No test-set selection.",
+  "planned_remote_evaluations": 250,
+  "planned_local_m0_evaluations": 50
+}

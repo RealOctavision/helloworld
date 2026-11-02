@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-30T20:51:02.526466+00:00",
+  "passed": true,
+  "scope": "Final report source hashes, new document links, required counts, rendered section inclusion and existing demo evidence; no rerun of original archive checks",
+  "new_document_links": 15,
+  "report_sha256": "32f39229a2f72ad039335c65fc4227e00da08fee0a435b2374e083dd4850f4df",
+  "counts": {
+    "main_fits": 180,
+    "monthly_evaluations": 360,
+    "cpu_models": 180
+  },
+  "demo_prediction_checks": 36,
+  "note": "HTML text comparison decodes escaped entities such as Q&amp;A; first literal-source match was not a rendering failure."
+}

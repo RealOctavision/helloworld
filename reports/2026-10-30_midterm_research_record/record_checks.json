@@ -1,0 +1,26 @@
+{
+  "unsafe_archive_paths_rejected": true,
+  "local_links_resolve": true,
+  "numbered_sections": 22,
+  "qa_questions": 24,
+  "snapshots_match_uploaded_execution_code": true,
+  "architecture_parameter_totals_match": true,
+  "results_import_end_to_end": {
+    "passed": true,
+    "completed_fits": 60,
+    "verified_files": 357,
+    "archive_sha256": "1c41e56d0f3ef16be123da67ec32bcce399ea562568e4200c696ccadda08bc37"
+  },
+  "visual_preview": "Browser file: URL rejected by security policy; no workaround attempted. Built-in file open queued. HTML structure and local links checked; rendered appearance not visually verified.",
+  "environment_archive_verified": true,
+  "gpu_release_ui_confirmed": true,
+  "learning_curves_reviewed": true,
+  "main_stage_frozen": false,
+  "local_links_checked": 120,
+  "registered_campaigns": 1,
+  "automation": {
+    "id": "a100",
+    "status": "deleted",
+    "confirmed_at": "2026-10-30T23:17:38.155613+09:00"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "official_multimodal_cesnet_enhanced.py": {
+    "source": "research/2026-09-22_plan_support/.venv/lib/python3.12/site-packages/cesnet_models/architectures/multimodal_cesnet_enhanced.py",
+    "sha256": "665c2a1e2e81ecf70bc520862e6b2ff0b4e643697d9c0f8f40911e9eff63b533"
+  },
+  "official_pooling.py": {
+    "source": "research/2026-09-22_plan_support/.venv/lib/python3.12/site-packages/cesnet_models/architectures/multimodal_cesnet_enhanced.py",
+    "sha256": "665c2a1e2e81ecf70bc520862e6b2ff0b4e643697d9c0f8f40911e9eff63b533"
+  },
+  "official_model_factory.py": {
+    "source": "research/2026-09-22_plan_support/.venv/lib/python3.12/site-packages/cesnet_models/models.py",
+    "sha256": "b88bbaa88aac381566c098c56912af709d8a94776371dc1e6fbddff044a57d52"
+  },
+  "config.json": {
+    "source": "experiments/2026-10-30_midterm_restart/config.json",
+    "sha256": "f1b4de11292ae7bbd0d4a76f47deedf6f63798e8edc509e55a2a82f9ed8409fa"
+  },
+  "models.py": {
+    "source": "experiments/2026-10-30_midterm_restart/models.py",
+    "sha256": "8e01ad21e877e7c9e54b69eb73f2283ebe1367a7a6392853d0583216dfbd16b1"
+  },
+  "training.py": {
+    "source": "experiments/2026-10-30_midterm_restart/training.py",
+    "sha256": "e25568e097d4b1d04465123554e3f54c18e971aa6030b51b04bdf336438fc955"
+  },
+  "data.py": {
+    "source": "experiments/2026-10-30_midterm_restart/data.py",
+    "sha256": "9bfcaced8696fe9e4dd348e493a6a7931038753517e5620beb203731ac4734a4"
+  },
+  "colab_development.py": {
+    "source": "experiments/2026-10-30_midterm_restart/colab_development.py",
+    "sha256": "333e04287bf7007811e66b6370a55b33a2262257bfdb7726b7a6ceec842c5d5d"
+  },
+  "restart_decisions_at_capture.md": {
+    "source": "experiments/2026-10-28_data_audit/restart_decisions.md",
+    "sha256": "a12404050eae130902b4c047ee1522b413f9a92ef48ac2fa52ab097e69c5e19c"
+  },
+  "model_structure_review_at_capture.md": {
+    "source": "experiments/2026-10-28_data_audit/model_structure_review.md",
+    "sha256": "7faf6367ddbab870f7a872d3618c42ef2b824cd8cb4468cadbbfd220e45db9f0"
+  },
+  "original_plan_text.txt": {
+    "source": "reports/2026-10-26_planned_experiments/plan_source.txt",
+    "sha256": "a6631dc110826df7674bbed21f5bdc582a8d2fa67d592b5956fbd1c1a439c480"
+  },
+  "settings_explanation_user_supplied.txt": {
+    "source": "experiments/2026-10-28_data_audit/settings_explanation_user_supplied_2026-10-30.txt",
+    "sha256": "0cf9b7aafddccd9ddc87da28745e0519271535a02b79edc30d4147cd8dce3e65"
+  },
+  "CESNET_LICENCE.txt": {
+    "source": "installed cesnet_models-0.4.1.dist-info/licenses/LICENCE",
+    "sha256": "ebd59cebd00f88cd582ab14e222a46ee38d4da593cf5642e3bf534017294f0a1"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-11-02T15:18:18+09:00",
+  "scope": "Documentation build; no fitting/test-score computation",
+  "protocol_sha256": "8db8e9d9d80a8afc672e1ec0b4bfa793bd70af0b83ffcbda8415778f4bba0804",
+  "config_sha256": "f1b4de11292ae7bbd0d4a76f47deedf6f63798e8edc509e55a2a82f9ed8409fa",
+  "prepared_manifest_sha256": "7b05bddeddd5b389dde55c587ea609669542354e8212f5bb281f763f88ea38ef",
+  "architecture_sha256": "7431ea68f495643360c274b80144eeb3bd22ebb80f2c2e32f35ad7c74ee3c641",
+  "registered_campaigns": [
+    {
+      "archive_sha256": "1c41e56d0f3ef16be123da67ec32bcce399ea562568e4200c696ccadda08bc37",
+      "verification": "experiments/2026-10-30_midterm_restart/colab_recovered/1c41e56d0f3ef16b/verified_results.json",
+      "campaign_started_utc": "2026-10-30T13:14:14Z",
+      "status": "completed",
+      "completed": 60,
+      "imported_at": "2026-10-30T23:10:25.059218+09:00"
+    }
+  ],
+  "main_summary": {
+    "training": "experiments/2026-10-30_midterm_restart/main_recovered/training_0a6ed0ab2a84e29c/verified_training.json",
+    "completed_fits": 30,
+    "monthly_evaluation_complete": true,
+    "cpu_benchmark_complete": true,
+    "evaluation": "experiments/2026-10-30_midterm_restart/main_recovered/evaluation_083e2ab53fa66d6f/verified_evaluation.json",
+    "april_teacher_student_loss_pp": [
+      20.1755364663172,
+      20.8036755234558,
+      22.988884615201112,
+      17.783489489336734,
+      23.390012188105725
+    ],
+    "april_loss_mean_pp": 21.028319656483315
+  },
+  "continuation_snapshot": {
+    "observed_utc": "2026-10-30T18:08:26.218926+00:00",
+    "pid": 4522,
+    "tab_id": "9",
+    "state": "completed_recovered_gpu_released",
+    "current": "googleonly_n200/202505/M5_s205_n200",
+    "completed": 150,
+    "planned": 150,
+    "evaluations_completed": 250,
+    "evaluations_planned": 250,
+    "elapsed_seconds": 4568.148141692,
+    "finished_stages": [
+      "mixed_n50",
+      "mixed_n100",
+      "mixed_n1000",
+      "nongoogle_n200",
+      "googleonly_n200"
+    ],
+    "locally_verified_fits": 150,
+    "locally_verified_neural_evaluations": 250
+  },
+  "completion": {
+    "experiments_complete": true,
+    "analysis_reviewed": true,
+    "new_fits": 150,
+    "new_evaluations": 300,
+    "new_cpu_models": 150,
+    "representative_reused_fits": 30,
+    "representative_evaluations": 60,
+    "representative_cpu_models": 30,
+    "development_fits": 60,
+    "summary_sha256": "030669824be2bd1a34ded924b59d2360d6622df4385ad105fba898e9b7609996",
+    "runtime_release_sha256": "f40ea53dd18a861b63a7b4118a46c8d932d4b209c31963ad240486901ec16d57",
+    "demo_verification_sha256": "0a1bef962bbf03930a8d0ee77251d8ea52e979e9b48f4da23a2589e57a626ad5",
+    "remaining": [
+      "Optional channel removal and alternative students",
+      "FLOWSTATS/mm_cesnet_v2/MoE",
+      "Live packet capture and new-network/open-set evaluation",
+      "Apply official school slide template and confirm presentation duration"
+    ],
+    "scope": "Required frozen midterm comparisons, local costs, evidence-linked report/talk/Q&A and public PPI CPU replay; not all future research completed",
+    "analysis_path": "reports/2026-10-30_midterm_research_record/continuation_interpretation.md",
+    "analysis_sha256": "6ba51a4d7b138d82eb3a7609f509171c193c9aa1b392d87cae7ed3dca98b0b68",
+    "analysis_reviewed_utc": "2026-10-30T20:50:30.644680+00:00",
+    "analysis_review_scope": "Evidence-based review of verified aggregates, paired seeds, class errors/support, input overlap, raw learning curves and CPU measurement scope; no significance testing or new fitting; not an independent external review",
+    "remaining_analysis": [
+      "Optional short/long per-length performance aggregation; mask support counts already recorded"
+    ]
+  },
+  "research_record_md_sha256": "ed21af768f9f553df07507a08cfaa56063bdf2e1acc66039e4e4ebf5cb578e50"
+}

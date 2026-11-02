@@ -1,0 +1,211 @@
+{
+  "retrieved_utc": "2026-09-22T09:55:17.234784+00:00",
+  "status": "complete_official_XS_download_and_real_support_inspection",
+  "dataset": "CESNET-QUICEXT-25",
+  "datazoo_git_commit": "85afe5613a9a1ea840d174d779042ee13f87b4e2",
+  "datazoo_source_declared_version": "0.2.0",
+  "zenodo_record": 17249078,
+  "zenodo_version": "v1",
+  "zenodo_license": "CC-BY-4.0",
+  "DataZoo_software_license": "BSD-3-Clause",
+  "XS_separate_license": "not separately supplied or verified; distinguish original data license and software license",
+  "XS_http_last_modified": "Thu, 19 Mar 2026 11:01:53 GMT",
+  "XS_official_whole_file_MD5": "not published in inspected response",
+  "XS_multipart_etag_verified": true,
+  "XS_multipart_etag": "\"6f8b7075273e0ad9b9a292cac0bf2d2d-423\"",
+  "XS_multipart_chunk_bytes": 8388608,
+  "original_ZIP_status": "all 12 files not downloaded; official URLs, bytes and MD5 in original_files_manifest.csv",
+  "original_total_bytes": 28186538748,
+  "performance_evaluation": "not performed",
+  "assets": [
+    {
+      "path": ".gitignore",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 35,
+      "sha256": "f270c8ef3d4cb8f7e727b07822481911150d659557332c66071017070bc73949"
+    },
+    {
+      "path": "CESNET-QUICEXT-25-XS.h5",
+      "kind": "official_complete_XS_distribution",
+      "source_url": "https://liberouter.org/datazoo/download?bucket=cesnet-quicext-25&file=CESNET-QUICEXT-25-XS.h5",
+      "bytes": 3544625537,
+      "sha256": "6b323c4c53b7c9d0ec9011f895b3c5ba6b35247576e41ef19fe84ab8632810ab"
+    },
+    {
+      "path": "download_original.py",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 1667,
+      "sha256": "1e32caae00cc332f9f9a6c82111083ee484c7621103788133cc95d3d0ded18bd"
+    },
+    {
+      "path": "inspect_data.py",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 5186,
+      "sha256": "b795e740653df3488fa1c535b4aa740dbf30771bdeaaa0a1e121568b31ff7124"
+    },
+    {
+      "path": "inspection.json",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 15316,
+      "sha256": "c5fc5bf63005d74eb842af5b650d6c697166a2c1910de5ef4ad8ac023891012d"
+    },
+    {
+      "path": "inspection.log",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 473,
+      "sha256": "a4c70e4e76f16bbb99013241b4f97d812b5387c279e78cbe216c89989eee5ac9"
+    },
+    {
+      "path": "june_train_ppi4.npy",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 1568,
+      "sha256": "8d7e364544f6794a90c3575fd2a79cec7cef802176b0a1b6aaa75e67f6382035"
+    },
+    {
+      "path": "june_train_ppi4.npz",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 1291,
+      "sha256": "5f6efa31715f92b5fa2d48e9931e6c71e5298239829efdf319d138431dad49af"
+    },
+    {
+      "path": "original_files_manifest.csv",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 1746,
+      "sha256": "b01b38c5ff26baebcc97588c472e6952f02164a467b68c0395bea68575fa0047"
+    },
+    {
+      "path": "requirements.txt",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 28,
+      "sha256": "9c051e4a53e840f678887484a01315c26ffd66314f3ae8c836face4e587d6d2f"
+    },
+    {
+      "path": "servicemap.csv",
+      "kind": "official_service_mapping",
+      "source_url": "https://liberouter.org/datazoo/download?bucket=cesnet-quicext-25&file=servicemap.csv",
+      "bytes": 6533,
+      "sha256": "82ffb23c460865a499a96cfa5e0291f0878ed69acb7287b5260bc2132f984be6"
+    },
+    {
+      "path": "source/LICENCE",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/LICENCE",
+      "bytes": 1513,
+      "sha256": "81faa4bdbda25fb176c2382315251c7f86ed43c16f55771e4cb9974df8a5dd0b"
+    },
+    {
+      "path": "source/cesnet_dataset.py",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/datasets/cesnet_dataset.py",
+      "bytes": 46128,
+      "sha256": "67c980e6ef9674e956a697a787f4aa4f1e96225f433ae05361d31412bd951554"
+    },
+    {
+      "path": "source/config.py",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/config.py",
+      "bytes": 38358,
+      "sha256": "63fccd748202389950fd90bb1c45e85e964f6929e4b1f4ca969cc95457dbac18"
+    },
+    {
+      "path": "source/constants.py",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/constants.py",
+      "bytes": 1435,
+      "sha256": "394558dc194bd2145136f5393e98e07151c3fbdb6b00d97319d42c42fd0aea5c"
+    },
+    {
+      "path": "source/datasets.py",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/datasets/datasets.py",
+      "bytes": 4509,
+      "sha256": "0074fc7c48370abc0f016d72caf4df314bf1c970db790b817749a12279a3ca99"
+    },
+    {
+      "path": "source/datasets_constants.py",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/datasets/datasets_constants.py",
+      "bytes": 44632,
+      "sha256": "548f06bb80b5b8050f562a24cc8b49d98a381bf499de13ba9c9c8f0d73a5e10c"
+    },
+    {
+      "path": "source/datasets_overview.md",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/docs/datasets_overview.md",
+      "bytes": 3687,
+      "sha256": "71d2595bd33b0863aac6b7c348f034f2f9230d1916bb33390f34d50df81f9361"
+    },
+    {
+      "path": "source/datazoo-commit.json",
+      "kind": "official_API_metadata",
+      "source_url": "https://api.github.com/repos/CESNET/cesnet-datazoo/commits/main",
+      "bytes": 5626,
+      "sha256": "07dfe12f29cd01d92c47e561fd62d2ce4aa9cac27b6d7743671ed51abaa17d51"
+    },
+    {
+      "path": "source/datazoo-tree.json",
+      "kind": "official_API_metadata",
+      "source_url": "https://api.github.com/repos/CESNET/cesnet-datazoo/git/trees/85afe5613a9a1ea840d174d779042ee13f87b4e2?recursive=1",
+      "bytes": 15865,
+      "sha256": "7d88a9eb2ceb0fafb00b6b4b59c22ecfd007e212dc5e96194e03f41a46cbfb6a"
+    },
+    {
+      "path": "source/features.md",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/docs/features.md",
+      "bytes": 12132,
+      "sha256": "64ab6e57cf46d7baadcf62b0eece0507ef4b03b948ede6f052bcc726a9e59265"
+    },
+    {
+      "path": "source/metadata.csv",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/cesnet_datazoo/datasets/metadata/metadata.csv",
+      "bytes": 3089,
+      "sha256": "71013e542440f1db5a296144142e255416095f647298298f0bc6b4754dacbcff"
+    },
+    {
+      "path": "source/pyproject.toml",
+      "kind": "official_source_snapshot",
+      "source_url": "https://raw.githubusercontent.com/CESNET/cesnet-datazoo/85afe5613a9a1ea840d174d779042ee13f87b4e2/pyproject.toml",
+      "bytes": 1687,
+      "sha256": "04a6ec13dc3550468a6302e442795968240f8d6b71b1b006cf9e0490dc1513d6"
+    },
+    {
+      "path": "source/xs_http_metadata.json",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 579,
+      "sha256": "87469921c473aba6dca55ee3a4c39d1cf7c7087d0fd569a4fe502d3bc75f9b6d"
+    },
+    {
+      "path": "source/zenodo-record-17249078.json",
+      "kind": "official_API_metadata",
+      "source_url": "https://zenodo.org/api/records/17249078",
+      "bytes": 13107,
+      "sha256": "27c6de9669bfe94e50bc5020e5274993f84024de6952c59419c7927453345b83"
+    },
+    {
+      "path": "support_by_day_and_class.csv",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 70218,
+      "sha256": "b9ae811c2db3b8052a5a69f21cff483fed2990b51d8bdd651fb82ebb649c6c42"
+    },
+    {
+      "path": "support_by_period_and_class.csv",
+      "kind": "derived_or_local_tool",
+      "source_url": null,
+      "bytes": 2537,
+      "sha256": "6cf61f9a58747f7e67e39c35ed500549d6dd092e9cee1a664215bf40c4602f45"
+    }
+  ]
+}

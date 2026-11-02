@@ -1,0 +1,452 @@
+{
+  "source_sha256": {
+    "reports/2026-10-31_midterm_report/report_data.json": "cae245a528121a4839edd6a7b65b2b4aeb4679e24a114a3491f12aa7801648a2",
+    "experiments/2026-10-30_midterm_restart/continuation_recovered/googleonly_n200/evaluation_registry.json": "ae02ba55f8154714f818897718ab743fdaa1253eec11b144972f6ace64624a7d",
+    "experiments/2026-10-30_midterm_restart/continuation_recovered/googleonly_n200/evaluation_ff75d98ab00d9b86/verified_evaluation.json": "3c657d251f09d240e46f21896d68ffc107dcab13160e55d44854cfde100a8b7b",
+    "experiments/2026-10-30_midterm_restart/continuation_recovered/nongoogle_n200/evaluation_registry.json": "95c4ce572a764ed0dd9e47a672b92b2ead261ebb02159b9fa47a8b265e0c4090",
+    "experiments/2026-10-30_midterm_restart/continuation_recovered/nongoogle_n200/evaluation_9066f6a60ba8fd38/verified_evaluation.json": "3e1e298ee4d0b83d33fe8e122d7a1be2be8c560098c018661e927f51317c2606",
+    "experiments/2026-10-28_data_audit/clipped_summary.csv": "54edd1e1e104061db3825304ab91057b9a33463bc932b3e79d0ed677d3cff186",
+    "experiments/2026-10-30_midterm_restart/models.py": "8e01ad21e877e7c9e54b69eb73f2283ebe1367a7a6392853d0583216dfbd16b1",
+    "research/2026-09-22_plan_support/.venv/lib/python3.12/site-packages/cesnet_models/architectures/multimodal_cesnet_enhanced.py": "665c2a1e2e81ecf70bc520862e6b2ff0b4e643697d9c0f8f40911e9eff63b533"
+  },
+  "assets": [
+    {
+      "id": "01_input",
+      "title": "문제 정의와 PPI 입력",
+      "group": "main",
+      "caption": "설명용 4패킷 플로우를 30칸으로 패딩한 예시. 실제 표본이나 실제 모델 예측은 아니다.",
+      "data": [],
+      "png": "png/01_input.png",
+      "svg": "svg/01_input.svg",
+      "editable_svg": "svg_text/01_input.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "02_data_protocol",
+      "title": "데이터 처리와 시간 분할",
+      "group": "main",
+      "caption": "1월 학습 후보만 중복·충돌을 정리했다. 서비스 자격은 1월 정제 후 고유 입력 1,000개 이상을 기준으로 확정했다.",
+      "data": [],
+      "png": "png/02_data_protocol.png",
+      "svg": "svg/02_data_protocol.svg",
+      "editable_svg": "svg_text/02_data_protocol.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "03B_experiment_matrix",
+      "title": "실험 행렬과 실행 수",
+      "group": "backup",
+      "caption": "빈 칸은 미실행 조건이다. 3개 구성 × 4개 예산의 모든 조합을 실행한 것은 아니다.",
+      "data": [],
+      "png": "png/03B_experiment_matrix.png",
+      "svg": "svg/03B_experiment_matrix.svg",
+      "editable_svg": "svg_text/03B_experiment_matrix.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "03_model_map",
+      "title": "M0–M5 실험 비교표",
+      "group": "main",
+      "caption": "신경망은 A100 학습, M0는 CPU 학습. CPU 비용 측정은 학습된 모델의 추론 벤치마크다.",
+      "data": [
+        "03_model_map.csv"
+      ],
+      "png": "png/03_model_map.png",
+      "svg": "svg/03_model_map.svg",
+      "editable_svg": "svg_text/03_model_map.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "04D_architecture_detail",
+      "title": "모델 구조 상세",
+      "group": "backup",
+      "caption": "실제 코드 및 architecture snapshot 기준. 교사의 임베딩·pooling과 학생의 고정 변환·마스킹은 서로 다르다.",
+      "data": [],
+      "png": "png/04D_architecture_detail.png",
+      "svg": "svg/04D_architecture_detail.svg",
+      "editable_svg": "svg_text/04D_architecture_detail.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "04P_teacher_architecture",
+      "title": "논문식 구조도 · 교사 전체",
+      "group": "main",
+      "caption": "M1/M2의 실제 forward 경로. 채널×패킷 표기로 배치 차원을 생략했다. 임베딩 연결 순서는 IPT(10)→DIR(2)→SIZE(20)이며, 448차원 GeM 뒤에 새 Linear(448,C)를 바로 연결한다. 참고 그림의 Feature Refinement 및 공개 wrapper의 256차원 neck은 사용하지 않는다.",
+      "data": [],
+      "png": "png/04P_teacher_architecture.png",
+      "svg": "svg/04P_teacher_architecture.svg",
+      "editable_svg": "svg_text/04P_teacher_architecture.svg",
+      "png_pixels": [
+        4512,
+        1464
+      ]
+    },
+    {
+      "id": "04Q_residual_bottleneck",
+      "title": "논문식 구조도 · 잔차 블록 내부",
+      "group": "main",
+      "caption": "현재 교사의 네 블록은 모두 입출력 채널 수가 달라 1×1 Conv+BN projection을 사용한다. Dropout은 잔차 가지의 마지막 BN 이후, 합산 이전이다. 첫 블록 r=0은 Identity이며 모든 stride는 1이다.",
+      "data": [],
+      "png": "png/04Q_residual_bottleneck.png",
+      "svg": "svg/04Q_residual_bottleneck.svg",
+      "editable_svg": "svg_text/04Q_residual_bottleneck.svg",
+      "png_pixels": [
+        2304,
+        2712
+      ]
+    },
+    {
+      "id": "04R_student_architecture",
+      "title": "논문식 구조도 · 학생 전체",
+      "group": "main",
+      "caption": "M3/M4/M5의 동일한 구조. 입력은 공통 clip·패딩 후이며 DIR≠0에서 만든 마스크를 각 Conv→ReLU 뒤에 곱하고 pooling 분모에도 사용한다. 실선은 특징, 점선은 마스크 경로다. [B,채널,패킷]에서 B를 생략했다.",
+      "data": [],
+      "png": "png/04R_student_architecture.png",
+      "svg": "svg/04R_student_architecture.svg",
+      "editable_svg": "svg_text/04R_student_architecture.svg",
+      "png_pixels": [
+        4896,
+        1440
+      ]
+    },
+    {
+      "id": "04_architecture",
+      "title": "교사와 학생 구조 요약",
+      "group": "main",
+      "caption": "교사는 공개 30pktTCNET backbone을 활용하되 pooled 448차원에 새 분류기를 연결했다. 256차원 wrapper 출력 경로가 아니다.",
+      "data": [],
+      "png": "png/04_architecture.png",
+      "svg": "svg/04_architecture.svg",
+      "editable_svg": "svg_text/04_architecture.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "05_distillation",
+      "title": "지식 증류 학습과 추론",
+      "group": "main",
+      "caption": "교사는 학습 중 동결한다. 교사 logits는 동일 fitting 입력에서 미리 계산해 재사용했다. T=1이어도 전체 분포를 따르는 KL이 남는다.",
+      "data": [],
+      "png": "png/05_distillation.png",
+      "svg": "svg/05_distillation.svg",
+      "editable_svg": "svg_text/05_distillation.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "06T_main_results",
+      "title": "대표 성능 결과표",
+      "group": "main",
+      "caption": "표의 ±는 표본 표준편차. 모델 선택은 2월 검증에서 수행했으며 4·5월은 동결 모델의 평가다.",
+      "data": [
+        "06_representative.csv"
+      ],
+      "png": "png/06T_main_results.png",
+      "svg": "svg/06T_main_results.svg",
+      "editable_svg": "svg_text/06T_main_results.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "06_main_performance",
+      "title": "대표 조건 성능 그래프",
+      "group": "main",
+      "caption": "막대 높이는 Macro-F1의 5개 seed 평균. M2−M1에는 초기값 외 선택 학습률·BN 정책 차이도 포함된다.",
+      "data": [
+        "all_aggregate_results.csv",
+        "all_per_seed_scores.csv"
+      ],
+      "png": "png/06_main_performance.png",
+      "svg": "svg/06_main_performance.svg",
+      "editable_svg": "svg_text/06_main_performance.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "07_label_budget",
+      "title": "라벨 예산별 성능 곡선",
+      "group": "main",
+      "caption": "평균 성능의 기술적 비교다. 모든 예산에서 동일 50 epoch를 사용하므로 라벨 증가와 연산량 증가를 분리한 실험은 아니다.",
+      "data": [
+        "all_aggregate_results.csv",
+        "all_per_seed_scores.csv"
+      ],
+      "png": "png/07_label_budget.png",
+      "svg": "svg/07_label_budget.svg",
+      "editable_svg": "svg_text/07_label_budget.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "08_service_cohorts",
+      "title": "서비스 구성별 성능",
+      "group": "main",
+      "caption": "본문용으로 M2/M3/M5만 강조했다. 6개 모델의 모든 조건별 결과는 데이터 CSV와 기존 보고서에 보존되어 있다.",
+      "data": [
+        "all_aggregate_results.csv",
+        "all_per_seed_scores.csv"
+      ],
+      "png": "png/08_service_cohorts.png",
+      "svg": "svg/08_service_cohorts.svg",
+      "editable_svg": "svg_text/08_service_cohorts.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "09D_google_M2",
+      "title": "Google 전체 혼동행렬 M2",
+      "group": "backup",
+      "caption": "20개 전체 클래스의 행 정규화 혼동행렬. 숫자 미표시 셀은 0이라는 뜻이 아니다.",
+      "data": [
+        "09_googleonly_n200_M2_full.csv"
+      ],
+      "png": "png/09D_google_M2.png",
+      "svg": "svg/09D_google_M2.svg",
+      "editable_svg": "svg_text/09D_google_M2.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "09D_google_M5",
+      "title": "Google 전체 혼동행렬 M5",
+      "group": "backup",
+      "caption": "20개 전체 클래스의 행 정규화 혼동행렬. 숫자 미표시 셀은 0이라는 뜻이 아니다.",
+      "data": [
+        "09_googleonly_n200_M5_full.csv"
+      ],
+      "png": "png/09D_google_M5.png",
+      "svg": "svg/09D_google_M5.svg",
+      "editable_svg": "svg_text/09D_google_M5.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "09_confusion_focus",
+      "title": "Google·Meta 혼동 비교",
+      "group": "main",
+      "caption": "Google의 6개 서비스는 주요 혼동을 설명하기 위한 부분집합이다. Meta는 비Google13 실험에서 6개 관련 서비스를 뽑은 것이며 Meta 전용 실험이 아니다. 다른 예측 클래스는 기타 열에 보존했다.",
+      "data": [
+        "09_googleonly_n200_M2_focused.csv",
+        "09_googleonly_n200_M5_focused.csv",
+        "09_nongoogle_n200_M2_focused.csv",
+        "09_nongoogle_n200_M5_focused.csv"
+      ],
+      "png": "png/09_confusion_focus.png",
+      "svg": "svg/09_confusion_focus.svg",
+      "editable_svg": "svg_text/09_confusion_focus.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "10_accuracy_cost",
+      "title": "성능과 CPU 추론 비용",
+      "group": "main",
+      "caption": "SD는 세로축 F1 변동만 표시한다. 개별 seed의 latency median을 평균했으며 통합 측정 중앙값이 아니다. 파라미터 감소는 메모리 RSS 감소와 같지 않다.",
+      "data": [
+        "all_cpu_results.csv",
+        "all_aggregate_results.csv"
+      ],
+      "png": "png/10_accuracy_cost.png",
+      "svg": "svg/10_accuracy_cost.svg",
+      "editable_svg": "svg_text/10_accuracy_cost.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B01_collision",
+      "title": "입력 길이별 충돌",
+      "group": "backup",
+      "caption": "정규화된 순서 있는 입력이 완전히 같고 라벨이 다른 그룹의 기록 비율. 최소 가능 오류율과 다르다.",
+      "data": [
+        "B01_collision.csv"
+      ],
+      "png": "png/B01_collision.png",
+      "svg": "svg/B01_collision.svg",
+      "editable_svg": "svg_text/B01_collision.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B02_overlap",
+      "title": "평가 겹침과 비겹침",
+      "group": "backup",
+      "caption": "겹침은 source ID가 아니라 정규화된 PPI 값의 정확한 일치다. 작은 overlap 집합은 빈 클래스가 많아 전체적인 능력의 지표로 사용하지 않는다.",
+      "data": [
+        "all_aggregate_results.csv",
+        "all_per_seed_scores.csv"
+      ],
+      "png": "png/B02_overlap.png",
+      "svg": "svg/B02_overlap.svg",
+      "editable_svg": "svg_text/B02_overlap.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B03L_train_validation_loss",
+      "title": "학습과 검증 손실",
+      "group": "backup",
+      "caption": "M3와 M5의 train_loss는 서로 다른 목적함수라서 같은 종류의 손실로 겹쳐 비교하지 않았다.",
+      "data": [
+        "all_neural_learning_curves.csv"
+      ],
+      "png": "png/B03L_train_validation_loss.png",
+      "svg": "svg/B03L_train_validation_loss.svg",
+      "editable_svg": "svg_text/B03L_train_validation_loss.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B03_validation_curves",
+      "title": "검증 학습곡선",
+      "group": "backup",
+      "caption": "저장된 본실험 50 epoch 기록에서 직접 계산. 수렴이 충분했다는 보장이나 추가 학습 결과가 아니다.",
+      "data": [
+        "all_neural_learning_curves.csv"
+      ],
+      "png": "png/B03_validation_curves.png",
+      "svg": "svg/B03_validation_curves.svg",
+      "editable_svg": "svg_text/B03_validation_curves.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B04_selection",
+      "title": "설정 선택 근거",
+      "group": "backup",
+      "caption": "LR/leaves는 개발 seed 2개 평균, KD는 교사 2개×seed 2개 평균이다. 최적값의 통계적 확실성을 입증한 실험은 아니다.",
+      "data": [
+        "B04_kd_grid.csv",
+        "B04_lr_candidates.csv"
+      ],
+      "png": "png/B04_selection.png",
+      "svg": "svg/B04_selection.svg",
+      "editable_svg": "svg_text/B04_selection.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B05_googleonly_n200",
+      "title": "Google 계열20 서비스별 결과표",
+      "group": "backup",
+      "caption": "드문 서비스는 support와 함께 읽는다. 전체 M0–M5·4/5월의 정확한 평균 수치는 all_class_results.csv에 제공한다.",
+      "data": [
+        "B05_googleonly_n200.csv"
+      ],
+      "png": "png/B05_googleonly_n200.png",
+      "svg": "svg/B05_googleonly_n200.svg",
+      "editable_svg": "svg_text/B05_googleonly_n200.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B05_mixed_n200",
+      "title": "혼합20 서비스별 결과표",
+      "group": "backup",
+      "caption": "드문 서비스는 support와 함께 읽는다. 전체 M0–M5·4/5월의 정확한 평균 수치는 all_class_results.csv에 제공한다.",
+      "data": [
+        "B05_mixed_n200.csv"
+      ],
+      "png": "png/B05_mixed_n200.png",
+      "svg": "svg/B05_mixed_n200.svg",
+      "editable_svg": "svg_text/B05_mixed_n200.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B05_nongoogle_n200",
+      "title": "비Google13 서비스별 결과표",
+      "group": "backup",
+      "caption": "드문 서비스는 support와 함께 읽는다. 전체 M0–M5·4/5월의 정확한 평균 수치는 all_class_results.csv에 제공한다.",
+      "data": [
+        "B05_nongoogle_n200.csv"
+      ],
+      "png": "png/B05_nongoogle_n200.png",
+      "svg": "svg/B05_nongoogle_n200.svg",
+      "editable_svg": "svg_text/B05_nongoogle_n200.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "id": "B06_paired_differences",
+      "title": "seed별 짝지은 성능 차이",
+      "group": "backup",
+      "caption": "M2−M1의 평균과 M5−M3/M5−M4의 작은 개선을 각 seed 수준에서 확인한다.",
+      "data": [
+        "all_paired_differences.csv"
+      ],
+      "png": "png/B06_paired_differences.png",
+      "svg": "svg/B06_paired_differences.svg",
+      "editable_svg": "svg_text/B06_paired_differences.svg",
+      "png_pixels": [
+        3200,
+        1800
+      ]
+    }
+  ],
+  "checks": [
+    "googleonly_n200 M2: 5 confusion matrices, row supports, 100% totals and saved top pairs agree",
+    "googleonly_n200 M5: 5 confusion matrices, row supports, 100% totals and saved top pairs agree",
+    "nongoogle_n200 M2: 5 confusion matrices, row supports, 100% totals and saved top pairs agree",
+    "nongoogle_n200 M5: 5 confusion matrices, row supports, 100% totals and saved top pairs agree",
+    "Paper-style architecture paths matched to models.py and installed CESNET Bottleneck/forward_features; no new inference."
+  ],
+  "format": {
+    "png": "Opaque white; dimensions in each asset png_pixels. Standard assets 16:9; paper-style diagrams use native aspect ratios.",
+    "svg": "Text outlined; font-independent vector",
+    "svg_text": "Text retained; Apple SD Gothic Neo or compatible Korean font needed"
+  },
+  "new_training": false,
+  "new_inference": false,
+  "data_scope": "Reformatted verified results; confusion rates newly aggregated from saved confusion matrices."
+}

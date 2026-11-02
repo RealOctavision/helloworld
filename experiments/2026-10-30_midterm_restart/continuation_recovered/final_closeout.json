@@ -1,0 +1,18 @@
+{
+  "closed_utc": "2026-10-30T20:51:53.593011+00:00",
+  "required_scope_complete": true,
+  "analysis_reviewed": true,
+  "gpu_released": true,
+  "automation": {
+    "id": "150",
+    "deleted": true,
+    "evidence": "Codex automation_update returned deleteStatus=deleted"
+  },
+  "temporary_sleep_guard": {
+    "pid": 65669,
+    "result": "terminated_and_absent"
+  },
+  "report": "reports/2026-10-30_midterm_research_record/research_record.html",
+  "verification": "final_report_check.json",
+  "remaining": "School PPT template/submission, live capture, new environment/open-set/anomaly evaluation, optional model/input extensions and short/long performance aggregation"
+}

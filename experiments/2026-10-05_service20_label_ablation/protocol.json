@@ -1,0 +1,824 @@
+{
+  "version": 1,
+  "phase": "fixed_matrix",
+  "seeds": [
+    55,
+    56,
+    57
+  ],
+  "packets": [
+    5,
+    30
+  ],
+  "unique_train_per_class": 200,
+  "manual_train_per_class": 40,
+  "validation_per_class": 10,
+  "occurrences_per_class": 1600,
+  "student_epochs": 50,
+  "teacher_epochs": 60,
+  "batch": 64,
+  "arms": [
+    "teacher",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "S",
+    "L",
+    "P"
+  ],
+  "cohorts": {
+    "reference6": {
+      "codes": [
+        14,
+        31,
+        35,
+        36,
+        48,
+        50
+      ],
+      "classes": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "snapchat",
+        "spotify",
+        "discord"
+      ],
+      "services": [
+        {
+          "code": 14,
+          "tag": "youtube",
+          "name": "Youtube",
+          "provider": "google",
+          "january_raw": 82344,
+          "january": 23984,
+          "february_raw": 54731,
+          "february": 7520
+        },
+        {
+          "code": 31,
+          "tag": "instagram",
+          "name": "Instagram",
+          "provider": "facebook",
+          "january_raw": 34775,
+          "january": 8037,
+          "february_raw": 33191,
+          "february": 4269
+        },
+        {
+          "code": 35,
+          "tag": "tiktok",
+          "name": "TikTok",
+          "provider": "",
+          "january_raw": 11451,
+          "january": 4216,
+          "february_raw": 10114,
+          "february": 3357
+        },
+        {
+          "code": 36,
+          "tag": "snapchat",
+          "name": "Snapchat",
+          "provider": "",
+          "january_raw": 50007,
+          "january": 28517,
+          "february_raw": 49787,
+          "february": 21352
+        },
+        {
+          "code": 48,
+          "tag": "spotify",
+          "name": "Spotify",
+          "provider": "",
+          "january_raw": 16429,
+          "january": 5768,
+          "february_raw": 15311,
+          "february": 3688
+        },
+        {
+          "code": 50,
+          "tag": "discord",
+          "name": "Discord",
+          "provider": "",
+          "january_raw": 5034,
+          "january": 2531,
+          "february_raw": 4192,
+          "february": 1818
+        }
+      ]
+    },
+    "diverse15": {
+      "codes": [
+        14,
+        31,
+        35,
+        36,
+        48,
+        50,
+        33,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        49
+      ],
+      "classes": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "snapchat",
+        "spotify",
+        "discord",
+        "microsoft-outlook",
+        "unitygames",
+        "jsdelivr",
+        "cloudflare-cdnjs",
+        "apple-privaterelay",
+        "dns-doh",
+        "openx",
+        "connectad",
+        "usercentrics"
+      ],
+      "services": [
+        {
+          "code": 14,
+          "tag": "youtube",
+          "name": "Youtube",
+          "provider": "google",
+          "january_raw": 82344,
+          "january": 23984,
+          "february_raw": 54731,
+          "february": 7520
+        },
+        {
+          "code": 31,
+          "tag": "instagram",
+          "name": "Instagram",
+          "provider": "facebook",
+          "january_raw": 34775,
+          "january": 8037,
+          "february_raw": 33191,
+          "february": 4269
+        },
+        {
+          "code": 35,
+          "tag": "tiktok",
+          "name": "TikTok",
+          "provider": "",
+          "january_raw": 11451,
+          "january": 4216,
+          "february_raw": 10114,
+          "february": 3357
+        },
+        {
+          "code": 36,
+          "tag": "snapchat",
+          "name": "Snapchat",
+          "provider": "",
+          "january_raw": 50007,
+          "january": 28517,
+          "february_raw": 49787,
+          "february": 21352
+        },
+        {
+          "code": 48,
+          "tag": "spotify",
+          "name": "Spotify",
+          "provider": "",
+          "january_raw": 16429,
+          "january": 5768,
+          "february_raw": 15311,
+          "february": 3688
+        },
+        {
+          "code": 50,
+          "tag": "discord",
+          "name": "Discord",
+          "provider": "",
+          "january_raw": 5034,
+          "january": 2531,
+          "february_raw": 4192,
+          "february": 1818
+        },
+        {
+          "code": 33,
+          "tag": "microsoft-outlook",
+          "name": "MS Outlook",
+          "provider": "microsoft",
+          "january_raw": 15433,
+          "january": 795,
+          "february_raw": 14259,
+          "february": 521
+        },
+        {
+          "code": 37,
+          "tag": "unitygames",
+          "name": "Unity Games",
+          "provider": "",
+          "january_raw": 3937,
+          "january": 580,
+          "february_raw": 4075,
+          "february": 158
+        },
+        {
+          "code": 38,
+          "tag": "jsdelivr",
+          "name": "JsDelivr",
+          "provider": "",
+          "january_raw": 985,
+          "january": 317,
+          "february_raw": 411,
+          "february": 85
+        },
+        {
+          "code": 39,
+          "tag": "cloudflare-cdnjs",
+          "name": "Cloudflare CDNjs",
+          "provider": "",
+          "january_raw": 462,
+          "january": 227,
+          "february_raw": 226,
+          "february": 64
+        },
+        {
+          "code": 40,
+          "tag": "apple-privaterelay",
+          "name": "Apple iCloud Private Relay",
+          "provider": "",
+          "january_raw": 42185,
+          "january": 16815,
+          "february_raw": 54422,
+          "february": 15063
+        },
+        {
+          "code": 41,
+          "tag": "dns-doh",
+          "name": "DoH (5 providers)",
+          "provider": "",
+          "january_raw": 5331,
+          "january": 3257,
+          "february_raw": 5129,
+          "february": 2119
+        },
+        {
+          "code": 43,
+          "tag": "openx",
+          "name": "Openx",
+          "provider": "",
+          "january_raw": 2419,
+          "january": 2004,
+          "february_raw": 902,
+          "february": 649
+        },
+        {
+          "code": 44,
+          "tag": "connectad",
+          "name": "ConnectAd",
+          "provider": "",
+          "january_raw": 735,
+          "january": 366,
+          "february_raw": 310,
+          "february": 118
+        },
+        {
+          "code": 49,
+          "tag": "usercentrics",
+          "name": "Usercentrics",
+          "provider": "",
+          "january_raw": 349,
+          "january": 227,
+          "february_raw": 178,
+          "february": 50
+        }
+      ]
+    },
+    "diverse20": {
+      "codes": [
+        14,
+        31,
+        35,
+        36,
+        48,
+        50,
+        33,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        49,
+        25,
+        26,
+        27,
+        32,
+        34
+      ],
+      "classes": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "snapchat",
+        "spotify",
+        "discord",
+        "microsoft-outlook",
+        "unitygames",
+        "jsdelivr",
+        "cloudflare-cdnjs",
+        "apple-privaterelay",
+        "dns-doh",
+        "openx",
+        "connectad",
+        "usercentrics",
+        "facebook-graph",
+        "facebook-media",
+        "facebook-web",
+        "whatsapp",
+        "microsoft-substrate"
+      ],
+      "services": [
+        {
+          "code": 14,
+          "tag": "youtube",
+          "name": "Youtube",
+          "provider": "google",
+          "january_raw": 82344,
+          "january": 23984,
+          "february_raw": 54731,
+          "february": 7520
+        },
+        {
+          "code": 31,
+          "tag": "instagram",
+          "name": "Instagram",
+          "provider": "facebook",
+          "january_raw": 34775,
+          "january": 8037,
+          "february_raw": 33191,
+          "february": 4269
+        },
+        {
+          "code": 35,
+          "tag": "tiktok",
+          "name": "TikTok",
+          "provider": "",
+          "january_raw": 11451,
+          "january": 4216,
+          "february_raw": 10114,
+          "february": 3357
+        },
+        {
+          "code": 36,
+          "tag": "snapchat",
+          "name": "Snapchat",
+          "provider": "",
+          "january_raw": 50007,
+          "january": 28517,
+          "february_raw": 49787,
+          "february": 21352
+        },
+        {
+          "code": 48,
+          "tag": "spotify",
+          "name": "Spotify",
+          "provider": "",
+          "january_raw": 16429,
+          "january": 5768,
+          "february_raw": 15311,
+          "february": 3688
+        },
+        {
+          "code": 50,
+          "tag": "discord",
+          "name": "Discord",
+          "provider": "",
+          "january_raw": 5034,
+          "january": 2531,
+          "february_raw": 4192,
+          "february": 1818
+        },
+        {
+          "code": 33,
+          "tag": "microsoft-outlook",
+          "name": "MS Outlook",
+          "provider": "microsoft",
+          "january_raw": 15433,
+          "january": 795,
+          "february_raw": 14259,
+          "february": 521
+        },
+        {
+          "code": 37,
+          "tag": "unitygames",
+          "name": "Unity Games",
+          "provider": "",
+          "january_raw": 3937,
+          "january": 580,
+          "february_raw": 4075,
+          "february": 158
+        },
+        {
+          "code": 38,
+          "tag": "jsdelivr",
+          "name": "JsDelivr",
+          "provider": "",
+          "january_raw": 985,
+          "january": 317,
+          "february_raw": 411,
+          "february": 85
+        },
+        {
+          "code": 39,
+          "tag": "cloudflare-cdnjs",
+          "name": "Cloudflare CDNjs",
+          "provider": "",
+          "january_raw": 462,
+          "january": 227,
+          "february_raw": 226,
+          "february": 64
+        },
+        {
+          "code": 40,
+          "tag": "apple-privaterelay",
+          "name": "Apple iCloud Private Relay",
+          "provider": "",
+          "january_raw": 42185,
+          "january": 16815,
+          "february_raw": 54422,
+          "february": 15063
+        },
+        {
+          "code": 41,
+          "tag": "dns-doh",
+          "name": "DoH (5 providers)",
+          "provider": "",
+          "january_raw": 5331,
+          "january": 3257,
+          "february_raw": 5129,
+          "february": 2119
+        },
+        {
+          "code": 43,
+          "tag": "openx",
+          "name": "Openx",
+          "provider": "",
+          "january_raw": 2419,
+          "january": 2004,
+          "february_raw": 902,
+          "february": 649
+        },
+        {
+          "code": 44,
+          "tag": "connectad",
+          "name": "ConnectAd",
+          "provider": "",
+          "january_raw": 735,
+          "january": 366,
+          "february_raw": 310,
+          "february": 118
+        },
+        {
+          "code": 49,
+          "tag": "usercentrics",
+          "name": "Usercentrics",
+          "provider": "",
+          "january_raw": 349,
+          "january": 227,
+          "february_raw": 178,
+          "february": 50
+        },
+        {
+          "code": 25,
+          "tag": "facebook-graph",
+          "name": "Facebook Graph API",
+          "provider": "facebook",
+          "january_raw": 36206,
+          "january": 5581,
+          "february_raw": 33535,
+          "february": 2087
+        },
+        {
+          "code": 26,
+          "tag": "facebook-media",
+          "name": "Facebook Media",
+          "provider": "facebook",
+          "january_raw": 12685,
+          "january": 6233,
+          "february_raw": 10224,
+          "february": 3469
+        },
+        {
+          "code": 27,
+          "tag": "facebook-web",
+          "name": "Facebook Web",
+          "provider": "facebook",
+          "january_raw": 12305,
+          "january": 1900,
+          "february_raw": 10948,
+          "february": 602
+        },
+        {
+          "code": 32,
+          "tag": "whatsapp",
+          "name": "WhatsApp",
+          "provider": "facebook",
+          "january_raw": 4133,
+          "january": 291,
+          "february_raw": 8518,
+          "february": 234
+        },
+        {
+          "code": 34,
+          "tag": "microsoft-substrate",
+          "name": "MS Substrate Services",
+          "provider": "microsoft",
+          "january_raw": 533,
+          "january": 395,
+          "february_raw": 442,
+          "february": 243
+        }
+      ]
+    },
+    "google20": {
+      "codes": [
+        14,
+        31,
+        35,
+        36,
+        48,
+        50,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        16,
+        17,
+        20,
+        21
+      ],
+      "classes": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "snapchat",
+        "spotify",
+        "discord",
+        "google-www",
+        "google-play",
+        "google-services",
+        "google-gstatic",
+        "google-usercontent",
+        "google-authentication",
+        "google-fonts",
+        "google-drive",
+        "google-docs",
+        "google-translate",
+        "google-ads",
+        "google-safebrowsing",
+        "google-imasdk",
+        "google-calendar"
+      ],
+      "services": [
+        {
+          "code": 14,
+          "tag": "youtube",
+          "name": "Youtube",
+          "provider": "google",
+          "january_raw": 82344,
+          "january": 23984,
+          "february_raw": 54731,
+          "february": 7520
+        },
+        {
+          "code": 31,
+          "tag": "instagram",
+          "name": "Instagram",
+          "provider": "facebook",
+          "january_raw": 34775,
+          "january": 8037,
+          "february_raw": 33191,
+          "february": 4269
+        },
+        {
+          "code": 35,
+          "tag": "tiktok",
+          "name": "TikTok",
+          "provider": "",
+          "january_raw": 11451,
+          "january": 4216,
+          "february_raw": 10114,
+          "february": 3357
+        },
+        {
+          "code": 36,
+          "tag": "snapchat",
+          "name": "Snapchat",
+          "provider": "",
+          "january_raw": 50007,
+          "january": 28517,
+          "february_raw": 49787,
+          "february": 21352
+        },
+        {
+          "code": 48,
+          "tag": "spotify",
+          "name": "Spotify",
+          "provider": "",
+          "january_raw": 16429,
+          "january": 5768,
+          "february_raw": 15311,
+          "february": 3688
+        },
+        {
+          "code": 50,
+          "tag": "discord",
+          "name": "Discord",
+          "provider": "",
+          "january_raw": 5034,
+          "january": 2531,
+          "february_raw": 4192,
+          "february": 1818
+        },
+        {
+          "code": 1,
+          "tag": "google-www",
+          "name": "Google Search & Maps",
+          "provider": "google",
+          "january_raw": 32849,
+          "january": 13126,
+          "february_raw": 23463,
+          "february": 4549
+        },
+        {
+          "code": 2,
+          "tag": "google-play",
+          "name": "Google Play",
+          "provider": "google",
+          "january_raw": 72703,
+          "january": 22441,
+          "february_raw": 16038,
+          "february": 3538
+        },
+        {
+          "code": 3,
+          "tag": "google-services",
+          "name": "Google Backend Services",
+          "provider": "google",
+          "january_raw": 29999,
+          "january": 12643,
+          "february_raw": 20482,
+          "february": 5979
+        },
+        {
+          "code": 4,
+          "tag": "google-gstatic",
+          "name": "Google Gstatic",
+          "provider": "google",
+          "january_raw": 36884,
+          "january": 17331,
+          "february_raw": 21492,
+          "february": 8197
+        },
+        {
+          "code": 5,
+          "tag": "google-usercontent",
+          "name": "Google User Content",
+          "provider": "google",
+          "january_raw": 22056,
+          "january": 5949,
+          "february_raw": 17036,
+          "february": 1352
+        },
+        {
+          "code": 6,
+          "tag": "google-authentication",
+          "name": "Google Authentication",
+          "provider": "google",
+          "january_raw": 12046,
+          "january": 5031,
+          "february_raw": 8072,
+          "february": 1365
+        },
+        {
+          "code": 8,
+          "tag": "google-fonts",
+          "name": "Google Fonts",
+          "provider": "google",
+          "january_raw": 17358,
+          "january": 6843,
+          "february_raw": 10520,
+          "february": 1924
+        },
+        {
+          "code": 9,
+          "tag": "google-drive",
+          "name": "Google Drive",
+          "provider": "google",
+          "january_raw": 1238,
+          "january": 838,
+          "february_raw": 598,
+          "february": 126
+        },
+        {
+          "code": 10,
+          "tag": "google-docs",
+          "name": "Google Docs",
+          "provider": "google",
+          "january_raw": 1310,
+          "january": 829,
+          "february_raw": 974,
+          "february": 305
+        },
+        {
+          "code": 13,
+          "tag": "google-translate",
+          "name": "Google Translate",
+          "provider": "google",
+          "january_raw": 1373,
+          "january": 1091,
+          "february_raw": 774,
+          "february": 299
+        },
+        {
+          "code": 16,
+          "tag": "google-ads",
+          "name": "Google Analytics & Ads",
+          "provider": "google",
+          "january_raw": 112841,
+          "january": 42026,
+          "february_raw": 53786,
+          "february": 11470
+        },
+        {
+          "code": 17,
+          "tag": "google-safebrowsing",
+          "name": "Google Safe Browsing API",
+          "provider": "google",
+          "january_raw": 5953,
+          "january": 4518,
+          "february_raw": 1712,
+          "february": 1060
+        },
+        {
+          "code": 20,
+          "tag": "google-imasdk",
+          "name": "Google IMA SDK",
+          "provider": "google",
+          "january_raw": 1310,
+          "january": 823,
+          "february_raw": 858,
+          "february": 122
+        },
+        {
+          "code": 21,
+          "tag": "google-calendar",
+          "name": "Google Calendar",
+          "provider": "google",
+          "january_raw": 19846,
+          "january": 2898,
+          "february_raw": 19849,
+          "february": 494
+        }
+      ]
+    }
+  },
+  "arm_meanings": {
+    "teacher": "Public full embedding teacher; 40 January GT rows/class, February selection",
+    "A": "Public lookup initialization; manual GT + extra hard teacher labels",
+    "B": "Public lookup initialization; manual GT/extra hard teacher labels + soft teacher probabilities",
+    "C": "Public lookup initialization; all 200/class GT only",
+    "D": "Public lookup initialization; all GT + soft teacher probabilities",
+    "E": "Public lookup initialization; all GT + extra hard teacher labels + soft teacher probabilities",
+    "S": "Fully random compact classifier, all 200/class GT; no teacher weights, labels or data selection",
+    "L": "Fully random compact classifier, only 40/class GT, repeated to equal updates",
+    "P": "Public lookup initialization, only 40/class GT, repeated to equal updates"
+  },
+  "limitations": [
+    "diverse15 contains 14 single-provider categories and a five-provider DoH aggregate, not 15 strictly independent vendors",
+    "diverse20 adds five Facebook/Microsoft sibling categories to diverse15; Google subdivision appears only in google20",
+    "Class cohorts are different tasks, not a causal isolation of provider similarity",
+    "Benchmark curator uses known class membership for identical balanced input selection in all arms; A/B hide extra labels only during optimization, not a strict end-to-end annotation-cost claim",
+    "Classes/sample counts fixed from January/February availability before new model scores",
+    "Macro-F1 and per-class confusion are primary; shared-six-service performance is reported across all four tasks",
+    "Same input IDs for 5/30 packets; unique first-five-packet input/label pairs; cross-label ambiguities retained",
+    "February and March exclude first-five-packet matches from earlier months, a conditional novel-input cohort",
+    "March has been studied in prior project work; this is retrospective temporal evaluation, not a globally untouched final test",
+    "All arms match occurrences and updates within a cohort; compute grows with class count",
+    "200 unique rows/class is lower than previous 800-row experiments because minor services lack support",
+    "Every selected row repeated eight times; manual rows retain GT in every arm",
+    "Fixed architecture and inherited hyperparameters are a benchmark, not a guarantee of each method best possible performance",
+    "MPS is not bitwise deterministic"
+  ]
+}

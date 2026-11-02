@@ -1,0 +1,15 @@
+{
+  "training": "experiments/2026-10-30_midterm_restart/main_recovered/training_0a6ed0ab2a84e29c/verified_training.json",
+  "completed_fits": 30,
+  "monthly_evaluation_complete": true,
+  "cpu_benchmark_complete": true,
+  "evaluation": "experiments/2026-10-30_midterm_restart/main_recovered/evaluation_083e2ab53fa66d6f/verified_evaluation.json",
+  "april_teacher_student_loss_pp": [
+    20.1755364663172,
+    20.8036755234558,
+    22.988884615201112,
+    17.783489489336734,
+    23.390012188105725
+  ],
+  "april_loss_mean_pp": 21.028319656483315
+}

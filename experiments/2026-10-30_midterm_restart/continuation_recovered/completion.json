@@ -1,0 +1,28 @@
+{
+  "experiments_complete": true,
+  "analysis_reviewed": true,
+  "new_fits": 150,
+  "new_evaluations": 300,
+  "new_cpu_models": 150,
+  "representative_reused_fits": 30,
+  "representative_evaluations": 60,
+  "representative_cpu_models": 30,
+  "development_fits": 60,
+  "summary_sha256": "030669824be2bd1a34ded924b59d2360d6622df4385ad105fba898e9b7609996",
+  "runtime_release_sha256": "f40ea53dd18a861b63a7b4118a46c8d932d4b209c31963ad240486901ec16d57",
+  "demo_verification_sha256": "0a1bef962bbf03930a8d0ee77251d8ea52e979e9b48f4da23a2589e57a626ad5",
+  "remaining": [
+    "Optional channel removal and alternative students",
+    "FLOWSTATS/mm_cesnet_v2/MoE",
+    "Live packet capture and new-network/open-set evaluation",
+    "Apply official school slide template and confirm presentation duration"
+  ],
+  "scope": "Required frozen midterm comparisons, local costs, evidence-linked report/talk/Q&A and public PPI CPU replay; not all future research completed",
+  "analysis_path": "reports/2026-10-30_midterm_research_record/continuation_interpretation.md",
+  "analysis_sha256": "6ba51a4d7b138d82eb3a7609f509171c193c9aa1b392d87cae7ed3dca98b0b68",
+  "analysis_reviewed_utc": "2026-10-30T20:50:30.644680+00:00",
+  "analysis_review_scope": "Evidence-based review of verified aggregates, paired seeds, class errors/support, input overlap, raw learning curves and CPU measurement scope; no significance testing or new fitting; not an independent external review",
+  "remaining_analysis": [
+    "Optional short/long per-length performance aggregation; mask support counts already recorded"
+  ]
+}

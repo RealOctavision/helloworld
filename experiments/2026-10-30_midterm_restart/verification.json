@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "cohorts": {
+    "google_included20": {
+      "nested_budgets": true,
+      "balanced_unique_training": true,
+      "source_id_disjoint": true,
+      "grouping_witnesses_per_month": 256,
+      "overlap_definitions_checked_for_main_seed_budget_pairs": 20
+    },
+    "non_google13": {
+      "nested_budgets": true,
+      "balanced_unique_training": true,
+      "source_id_disjoint": true,
+      "grouping_witnesses_per_month": 256,
+      "overlap_definitions_checked_for_main_seed_budget_pairs": 20
+    },
+    "google_only20": {
+      "nested_budgets": true,
+      "balanced_unique_training": true,
+      "source_id_disjoint": true,
+      "grouping_witnesses_per_month": 256,
+      "overlap_definitions_checked_for_main_seed_budget_pairs": 20
+    }
+  },
+  "evaluated_test_performance": false,
+  "smoke_summary_sha256": "660ad1cd4274a35c0c083c9f2e771d8d0aae26d62eaa319524a7b15334dc45b1",
+  "original_hdf5_spot_check": "passed",
+  "validation_annotation_pre_correction_sha256": {
+    "M1": "adfa6fba4579abaa585c8e3173a309013008e6e83ae8cef27caa37f5156a0c38",
+    "M2": "7851c56b368d06503a8fe854e28c807a742ae4d95c2d20c7760131af474d2019",
+    "M3": "5017d223cf4a624c663f04f9dcc94004116036c27f3e76ba51101e1c2ad8e562",
+    "M4": "8e612bf197fcb8f2f139289fd80b086cc567bfb2126c3ae5c5683d65fbdb5c03",
+    "M5": "f0c5e5d477f0646def55b295470b10bb7681c3b6d1b638dbb3dce49bd1205529"
+  },
+  "scope": "Prepared data and short CPU pipeline; no campaign accuracy, GPU timing, or isolated per-model memory claim.",
+  "code_sha256": {
+    "models.py": "8e01ad21e877e7c9e54b69eb73f2283ebe1367a7a6392853d0583216dfbd16b1",
+    "timing.py": "9377f504fa4505f55d404be0dfd419b6ee35441246a369157c041d5516b42813",
+    "verify.py": "9253d06e0608ef79cce79b5ca3be19d0843f2494792379ecdb59e751660bcc13",
+    "training.py": "2c2c508df3f0b9f0b258ba42c1c4a8bb66d2b1dfd770633917d8b162b73e1818",
+    "data.py": "9bfcaced8696fe9e4dd348e493a6a7931038753517e5620beb203731ac4734a4",
+    "smoke.py": "19ab6b020ce5e4fa432df6f5b0fac1e686944bcfc9882a9ea4fcf7da5b3f3491"
+  }
+}

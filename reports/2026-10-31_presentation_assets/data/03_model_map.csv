@@ -1,0 +1,7 @@
+﻿model,architecture,pretrained_weights,signal,role
+M0,16개 PPI 통계 → LightGBM,미사용,정답,전통적 기준선
+M1,큰 잔차 CNN 교사,미사용,정답 CE,직접학습 교사
+M2,M1과 동일한 교사 구조,공개 가중치 사용,정답 CE · 전체 미세조정,사전학습 활용
+M3,작은 3층 CNN 학생,미사용,정답 CE,증류 없는 학생
+M4,M3와 동일한 학생 구조,미사용,정답 CE + M1 확률 KL,직접학습 교사 증류
+M5,M3와 동일한 학생 구조,미사용,정답 CE + M2 확률 KL,사전학습 교사 증류

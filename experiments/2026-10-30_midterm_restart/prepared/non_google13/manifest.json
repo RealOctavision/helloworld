@@ -1,0 +1,234 @@
+{
+  "classes": [
+    "snapchat",
+    "apple-privaterelay",
+    "facebook-graph",
+    "instagram",
+    "spotify",
+    "facebook-media",
+    "facebook-web",
+    "tiktok",
+    "discord",
+    "whatsapp",
+    "unitygames",
+    "openx",
+    "facebook-connect"
+  ],
+  "codes": [
+    36,
+    40,
+    25,
+    31,
+    48,
+    26,
+    27,
+    35,
+    50,
+    32,
+    37,
+    43,
+    28
+  ],
+  "month_support": {
+    "202501": [
+      50007,
+      42185,
+      36206,
+      34775,
+      16429,
+      12685,
+      12305,
+      11451,
+      5034,
+      4133,
+      3937,
+      2419,
+      1867
+    ],
+    "202502": [
+      49787,
+      54422,
+      33535,
+      33191,
+      15311,
+      10224,
+      10948,
+      10114,
+      4192,
+      8518,
+      4075,
+      902,
+      1224
+    ],
+    "202504": [
+      57813,
+      17001,
+      51424,
+      53247,
+      17181,
+      14312,
+      16175,
+      11933,
+      5770,
+      1563,
+      4104,
+      598,
+      1350
+    ],
+    "202505": [
+      53748,
+      17680,
+      40486,
+      45256,
+      16916,
+      11620,
+      13415,
+      13193,
+      6035,
+      1482,
+      3489,
+      568,
+      1179
+    ]
+  },
+  "runs": {
+    "development_seed101": {
+      "rows": 2600,
+      "per_class": 200,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 1
+    },
+    "development_seed102": {
+      "rows": 2600,
+      "per_class": 200,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 0
+    },
+    "main_seed201": {
+      "rows": 13000,
+      "per_class": 1000,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 1
+    },
+    "main_seed202": {
+      "rows": 13000,
+      "per_class": 1000,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 5
+    },
+    "main_seed203": {
+      "rows": 13000,
+      "per_class": 1000,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 5
+    },
+    "main_seed204": {
+      "rows": 13000,
+      "per_class": 1000,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 2
+    },
+    "main_seed205": {
+      "rows": 13000,
+      "per_class": 1000,
+      "nested_budget_rule": "rank < budget",
+      "validation_overlap_rows": 4
+    }
+  },
+  "january_curation": {
+    "input_rows": 233433,
+    "exact_groups": 222887,
+    "conflicting_groups": 61,
+    "conflicting_rows": 432,
+    "same_label_duplicate_excess": 10175,
+    "retained_unique_inputs": 222826,
+    "retained_per_class": {
+      "snapchat": 49872,
+      "apple-privaterelay": 32263,
+      "facebook-graph": 36115,
+      "instagram": 34769,
+      "spotify": 16177,
+      "facebook-media": 12668,
+      "facebook-web": 12252,
+      "tiktok": 11392,
+      "discord": 5032,
+      "whatsapp": 4133,
+      "unitygames": 3900,
+      "openx": 2395,
+      "facebook-connect": 1858
+    },
+    "label_access_rows": 233433
+  },
+  "validation_support": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "common_unseen_exclusion": "All preregistered main seeds up to 1000/class, development seeds up to 200/class, and fixed validation. Never the unselected January pool.",
+  "evaluation_202504": {
+    "rows": 252471,
+    "groups": {
+      "validation_overlap": 399,
+      "common_unseen": 251691,
+      "short_flow": 103208,
+      "seed201_n50_train_overlap": 20,
+      "seed201_n100_train_overlap": 27,
+      "seed201_n200_train_overlap": 28,
+      "seed201_n1000_train_overlap": 77,
+      "seed202_n50_train_overlap": 13,
+      "seed202_n100_train_overlap": 16,
+      "seed202_n200_train_overlap": 22,
+      "seed202_n1000_train_overlap": 69,
+      "seed203_n50_train_overlap": 8,
+      "seed203_n100_train_overlap": 9,
+      "seed203_n200_train_overlap": 12,
+      "seed203_n1000_train_overlap": 86,
+      "seed204_n50_train_overlap": 0,
+      "seed204_n100_train_overlap": 3,
+      "seed204_n200_train_overlap": 10,
+      "seed204_n1000_train_overlap": 124,
+      "seed205_n50_train_overlap": 2,
+      "seed205_n100_train_overlap": 3,
+      "seed205_n200_train_overlap": 6,
+      "seed205_n1000_train_overlap": 117
+    }
+  },
+  "evaluation_202505": {
+    "rows": 225067,
+    "groups": {
+      "validation_overlap": 538,
+      "common_unseen": 223930,
+      "short_flow": 92529,
+      "seed201_n50_train_overlap": 19,
+      "seed201_n100_train_overlap": 26,
+      "seed201_n200_train_overlap": 31,
+      "seed201_n1000_train_overlap": 97,
+      "seed202_n50_train_overlap": 6,
+      "seed202_n100_train_overlap": 7,
+      "seed202_n200_train_overlap": 15,
+      "seed202_n1000_train_overlap": 84,
+      "seed203_n50_train_overlap": 4,
+      "seed203_n100_train_overlap": 4,
+      "seed203_n200_train_overlap": 12,
+      "seed203_n1000_train_overlap": 108,
+      "seed204_n50_train_overlap": 0,
+      "seed204_n100_train_overlap": 4,
+      "seed204_n200_train_overlap": 11,
+      "seed204_n1000_train_overlap": 223,
+      "seed205_n50_train_overlap": 3,
+      "seed205_n100_train_overlap": 4,
+      "seed205_n200_train_overlap": 5,
+      "seed205_n1000_train_overlap": 296
+    }
+  }
+}
