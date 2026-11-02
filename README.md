@@ -14,6 +14,7 @@
 | 실험 설계와 근거 원장 | [연구 기록](reports/2026-10-30_midterm_research_record/research_record.md) · [최종 집계 JSON](experiments/2026-10-30_midterm_restart/continuation_recovered/continuation_summary.json) |
 | 학습·평가 구현 | [실험 코드](experiments/2026-10-30_midterm_restart) · [모델](experiments/2026-10-30_midterm_restart/models.py) · [학습·증류](experiments/2026-10-30_midterm_restart/training.py) |
 | 데이터 정제·분할 | [데이터 준비 코드](experiments/2026-10-30_midterm_restart/data.py) · [사전 감사](experiments/2026-10-28_data_audit) |
+| 팀원 PC/GPU에서 다시 실행 | [데이터·가중치 준비부터 실행까지](REPRODUCE.md) |
 | 공개 범위·재현 조건·출처 | [PUBLICATION.md](PUBLICATION.md) · [공개 사본 해시 원장](publication_manifest.json) |
 
 HTML은 GitHub 파일 화면에서 웹페이지로 실행되지 않습니다. 저장소를 내려받은 뒤 다음 명령으로 열 수 있습니다. 학습이나 모델 추론을 실행하지 않는 정적 파일 서버입니다.
