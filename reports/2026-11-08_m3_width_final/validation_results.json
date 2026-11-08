@@ -1,0 +1,56 @@
+{
+  "score_split": "202502 validation",
+  "score_unit": "percent",
+  "delta_unit": "percentage points",
+  "rows": [
+    {
+      "budget": 200,
+      "seed": 201,
+      "baseline_f1_percent": 46.27425082975142,
+      "wide_f1_percent": 52.07893474975391,
+      "baseline_accuracy_percent": 47.35,
+      "wide_accuracy_percent": 52.400000000000006,
+      "wide_train_f1_percent": 65.609081,
+      "selected_epoch": 47,
+      "delta_f1_pp": 5.804683920002489,
+      "delta_accuracy_pp": 5.050000000000004
+    },
+    {
+      "budget": 200,
+      "seed": 202,
+      "baseline_f1_percent": 44.30161506894187,
+      "wide_f1_percent": 51.2242833907849,
+      "baseline_accuracy_percent": 45.225,
+      "wide_accuracy_percent": 51.525,
+      "wide_train_f1_percent": 64.250491,
+      "selected_epoch": 44,
+      "delta_f1_pp": 6.922668321843027,
+      "delta_accuracy_pp": 6.299999999999997
+    },
+    {
+      "budget": 1000,
+      "seed": 201,
+      "baseline_f1_percent": 60.19948584845192,
+      "wide_f1_percent": 64.95412500170048,
+      "baseline_accuracy_percent": 60.325,
+      "wide_accuracy_percent": 64.875,
+      "wide_train_f1_percent": 77.9569,
+      "selected_epoch": 46,
+      "delta_f1_pp": 4.754639153248554,
+      "delta_accuracy_pp": 4.549999999999997
+    },
+    {
+      "budget": 1000,
+      "seed": 202,
+      "baseline_f1_percent": 61.28891288697818,
+      "wide_f1_percent": 65.70482398162898,
+      "baseline_accuracy_percent": 61.1,
+      "wide_accuracy_percent": 65.225,
+      "wide_train_f1_percent": 78.243201,
+      "selected_epoch": 42,
+      "delta_f1_pp": 4.415911094650795,
+      "delta_accuracy_pp": 4.124999999999993
+    }
+  ],
+  "note": "Validation metrics from saved-checkpoint replay displayed by Colab; train scores retain six-decimal displayed precision. No per-flow predictions or IDs included."
+}
