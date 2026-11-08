@@ -1,0 +1,20 @@
+{
+  "storage": "Project Google Drive / QUIC_M3_results; raw artifacts are not distributed in this repository",
+  "verification_location": "Colab; Drive copy SHA-256 and ZIP CRC checked",
+  "local_archive_downloaded": false,
+  "training": {
+    "name": "m3_width_results_20261105T060434Z.zip",
+    "bytes": 8522305,
+    "sha256": "6b6bb9e8f265aab96e866f53f31152bc11c1f910b02322648964b17bc263653b"
+  },
+  "final_evaluation": {
+    "name": "m3_width_final_evaluation_20261108T015209Z.zip",
+    "bytes": 29457656,
+    "sha256": "7928cb8d5d6103b07cd3a030bc6eb7f79c5dcbc2e0ebe15fbee7a3cc24e8071e"
+  },
+  "executed_sources": {
+    "run.py": "306833fe35379b24f24dbfec0dc83a72794bb7b49a4850279e993f5966f3a53c",
+    "smoke_test.py": "eb2f83c37fba95648c482b8322affd31e602c7d53ca3378bad243787f9690cd7",
+    "final_evaluate.py": "0cb8615404d22bfaa99f5dc1dfac4b7b29aea3390d1f6e7f00015045106c2988"
+  }
+}

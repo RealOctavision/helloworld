@@ -1,0 +1,296 @@
+{
+  "experiment": "M3 width 64/128/128; CE only",
+  "training_date": "2026-11-05",
+  "evaluation_date": "2026-11-08",
+  "dataset_months": {
+    "train": "202501",
+    "validation": "202502",
+    "primary": "202504",
+    "temporal": "202505"
+  },
+  "cohort": "google_included20",
+  "channels": [
+    64,
+    128,
+    128
+  ],
+  "parameters": 77204,
+  "baseline_channels": [
+    32,
+    64,
+    64
+  ],
+  "baseline_parameters": 20180,
+  "seeds": [
+    201,
+    202
+  ],
+  "budgets": [
+    200,
+    1000
+  ],
+  "completed_training_runs": 4,
+  "completed_final_evaluations": 8,
+  "scores_are_fractions": true,
+  "delta_unit": "percentage points",
+  "final_all_rows": [
+    {
+      "month": "202504",
+      "budget": 200,
+      "seed": 201,
+      "group": "all",
+      "n": 379194,
+      "wide_macro_f1": 0.3834432389849901,
+      "baseline_macro_f1": 0.33736798021969555,
+      "wide_accuracy": 0.5269835493177635,
+      "baseline_accuracy": 0.46352526675000133,
+      "delta_f1_pp": 4.607525876529456,
+      "delta_accuracy_pp": 6.3458282567762145
+    },
+    {
+      "month": "202504",
+      "budget": 200,
+      "seed": 202,
+      "group": "all",
+      "n": 379194,
+      "wide_macro_f1": 0.38385333684898665,
+      "baseline_macro_f1": 0.32861899386632126,
+      "wide_accuracy": 0.5268833367616577,
+      "baseline_accuracy": 0.46235436214708037,
+      "delta_f1_pp": 5.5234342982665385,
+      "delta_accuracy_pp": 6.452897461457729
+    },
+    {
+      "month": "202504",
+      "budget": 1000,
+      "seed": 201,
+      "group": "all",
+      "n": 379194,
+      "wide_macro_f1": 0.49732816020443654,
+      "baseline_macro_f1": 0.46294164797436127,
+      "wide_accuracy": 0.6466795360686087,
+      "baseline_accuracy": 0.6095349609962183,
+      "delta_f1_pp": 3.4386512230075272,
+      "delta_accuracy_pp": 3.714457507239044
+    },
+    {
+      "month": "202504",
+      "budget": 1000,
+      "seed": 202,
+      "group": "all",
+      "n": 379194,
+      "wide_macro_f1": 0.5084014295191203,
+      "baseline_macro_f1": 0.4572070803195765,
+      "wide_accuracy": 0.6537524327916581,
+      "baseline_accuracy": 0.6059220346313496,
+      "delta_f1_pp": 5.119434919954374,
+      "delta_accuracy_pp": 4.783039816030843
+    },
+    {
+      "month": "202505",
+      "budget": 200,
+      "seed": 201,
+      "group": "all",
+      "n": 365258,
+      "wide_macro_f1": 0.38481644122283054,
+      "baseline_macro_f1": 0.339472280525337,
+      "wide_accuracy": 0.5200652689331924,
+      "baseline_accuracy": 0.4553986497215667,
+      "delta_f1_pp": 4.534416069749353,
+      "delta_accuracy_pp": 6.4666619211625695
+    },
+    {
+      "month": "202505",
+      "budget": 200,
+      "seed": 202,
+      "group": "all",
+      "n": 365258,
+      "wide_macro_f1": 0.3851679395490276,
+      "baseline_macro_f1": 0.3318881122886769,
+      "wide_accuracy": 0.5203664259235937,
+      "baseline_accuracy": 0.4572712986436984,
+      "delta_f1_pp": 5.327982726035074,
+      "delta_accuracy_pp": 6.30951272798953
+    },
+    {
+      "month": "202505",
+      "budget": 1000,
+      "seed": 201,
+      "group": "all",
+      "n": 365258,
+      "wide_macro_f1": 0.49401448508589985,
+      "baseline_macro_f1": 0.4605336978544162,
+      "wide_accuracy": 0.6383734237169343,
+      "baseline_accuracy": 0.6021031709093299,
+      "delta_f1_pp": 3.348078723148362,
+      "delta_accuracy_pp": 3.627025280760443
+    },
+    {
+      "month": "202505",
+      "budget": 1000,
+      "seed": 202,
+      "group": "all",
+      "n": 365258,
+      "wide_macro_f1": 0.5047338499555356,
+      "baseline_macro_f1": 0.4562654267432646,
+      "wide_accuracy": 0.6453903815932848,
+      "baseline_accuracy": 0.5977801992016601,
+      "delta_f1_pp": 4.8468423212271015,
+      "delta_accuracy_pp": 4.761018239162462
+    }
+  ],
+  "final_means": [
+    {
+      "month": "202504",
+      "budget": 200,
+      "group": "all",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 379194,
+      "wide_macro_f1": 0.38364828791698835,
+      "baseline_macro_f1": 0.3329934870430084,
+      "delta_f1_pp": 5.065480087397997,
+      "wide_accuracy": 0.5269334430397106,
+      "baseline_accuracy": 0.4629398144485408,
+      "delta_accuracy_pp": 6.399362859116971
+    },
+    {
+      "month": "202504",
+      "budget": 1000,
+      "group": "all",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 379194,
+      "wide_macro_f1": 0.5028647948617784,
+      "baseline_macro_f1": 0.4600743641469689,
+      "delta_f1_pp": 4.279043071480951,
+      "wide_accuracy": 0.6502159844301334,
+      "baseline_accuracy": 0.607728497813784,
+      "delta_accuracy_pp": 4.248748661634943
+    },
+    {
+      "month": "202505",
+      "budget": 200,
+      "group": "all",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 365258,
+      "wide_macro_f1": 0.3849921903859291,
+      "baseline_macro_f1": 0.33568019640700697,
+      "delta_f1_pp": 4.931199397892214,
+      "wide_accuracy": 0.5202158474283931,
+      "baseline_accuracy": 0.4563349741826326,
+      "delta_accuracy_pp": 6.38808732457605
+    },
+    {
+      "month": "202505",
+      "budget": 1000,
+      "group": "all",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 365258,
+      "wide_macro_f1": 0.4993741675207177,
+      "baseline_macro_f1": 0.4583995622988404,
+      "delta_f1_pp": 4.097460522187732,
+      "wide_accuracy": 0.6418819026551095,
+      "baseline_accuracy": 0.599941685055495,
+      "delta_accuracy_pp": 4.194021759961453
+    },
+    {
+      "month": "202504",
+      "budget": 200,
+      "group": "common_unseen",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 376465,
+      "wide_macro_f1": 0.3846576721711679,
+      "baseline_macro_f1": 0.3351590036901402,
+      "wide_accuracy": 0.5289017571354575,
+      "baseline_accuracy": 0.46564488066619736,
+      "delta_f1_pp": 4.949866848102774,
+      "delta_accuracy_pp": 6.325687646926015
+    },
+    {
+      "month": "202504",
+      "budget": 1000,
+      "group": "common_unseen",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 376465,
+      "wide_macro_f1": 0.5045253206609505,
+      "baseline_macro_f1": 0.4609883157025057,
+      "wide_accuracy": 0.6534365744491519,
+      "baseline_accuracy": 0.6093102944496833,
+      "delta_f1_pp": 4.353700495844476,
+      "delta_accuracy_pp": 4.412627999946861
+    },
+    {
+      "month": "202505",
+      "budget": 200,
+      "group": "common_unseen",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 362640,
+      "wide_macro_f1": 0.3859969602798699,
+      "baseline_macro_f1": 0.33776139974728786,
+      "wide_accuracy": 0.521987370394882,
+      "baseline_accuracy": 0.45885589013898076,
+      "delta_f1_pp": 4.823556053258205,
+      "delta_accuracy_pp": 6.31314802559012
+    },
+    {
+      "month": "202505",
+      "budget": 1000,
+      "group": "common_unseen",
+      "seeds": [
+        201,
+        202
+      ],
+      "n": 362640,
+      "wide_macro_f1": 0.5009114408279263,
+      "baseline_macro_f1": 0.45915232777855275,
+      "wide_accuracy": 0.6448144165012133,
+      "baseline_accuracy": 0.6010740679461726,
+      "delta_f1_pp": 4.175911304937352,
+      "delta_accuracy_pp": 4.374034855504072
+    }
+  ],
+  "environment": {
+    "evaluation_gpu": "Tesla T4",
+    "evaluation_torch": "2.14.1+cu130",
+    "baseline_gpu": "A100-SXM4-40GB",
+    "baseline_torch": "2.11.0+cu130",
+    "wide_training_torch": "2.11.0+cu130"
+  },
+  "verification_checks": [
+    "Original source and prepared NPZ hashes match",
+    "Four February-selected checkpoints preserved",
+    "Eight paired baseline checkpoint and evaluation input/label/order hashes match",
+    "All group metrics recomputed exactly from saved compact predictions",
+    "Drive archive hash matches source; ZIP CRC passed",
+    "Synthetic inference, metric replay, completed reuse, ID/overlap and corruption checks passed"
+  ],
+  "validation_replay": "Stored probability allclose rtol1e-5 atol1e-6 and identical predicted labels; no claim of bitwise equality in updated Torch",
+  "evidence_note": "Aggregate values transcribed from rendered Colab outputs and paired baseline references cross-checked locally. Raw archives and per-flow predictions remain in project Drive; their SHA-256 and ZIP CRC were verified within Colab. No local archive download is claimed.",
+  "limitations": [
+    "Two paired seeds, not the five-seed midterm averages",
+    "Baseline A100 / Torch 2.11.0+cu130; wide training T4 / Torch 2.11.0+cu130; final evaluation T4 / Torch 2.14.1+cu130",
+    "April/May were already observed in prior project work; not a new external blind holdout",
+    "Fixed 50 epochs gives 1600 versus 7850 updates at budgets 200 versus 1000",
+    "No extra seed, KD, latency or memory benchmark performed"
+  ]
+}
